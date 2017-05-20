@@ -17,10 +17,13 @@
       <a href="../index.html">    HOME </a>
       .
 
-      <a href="../15variations/index.html">    ONE </a>
+      <a href="reader1">    ONE </a>
       .
 
-      <a href="../Project2kit/index.html">    TWO </a>
+      <a href="reader2">    TWO </a>
+      .
+
+      <a href="reader3">    THREE </a>
       .
 
 
