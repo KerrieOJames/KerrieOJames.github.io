@@ -7,15 +7,18 @@ img {
   display: inline-flex;
   height: 100%;
   width: 200px;
+  padding-top: 300px;
+  padding-left: 300px;
 
 }
+
 
 .text {
   font-size: 10px;
   color: white;
   background-color: hotpink;
   display: inline-block;
-  font-family: helvetica;
+  font-family: arial;
   padding-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
@@ -36,22 +39,25 @@ img {
   opacity: 0.8;
   width: 500px;
   letter-spacing: 5px;
+  padding-left: 500px;
 
 }
 
 a {
   text-decoration: none;
   color: red;
+  font-family: arial;
+  font-size: 10px;
 }
 
 a:link {
-    color: cyan;
+    color: white;
 }
 a:visited {
-    color: cyan;
+    color: white;
 }
 a:hover {
-    color: black;
+    color:  #ff1a66;
 }
 a:active {
     color: #59466f;

@@ -1,20 +1,20 @@
 *{
   box-sizing:border-box;
 }
-* {
-  box-sizing:border-box;
-}
 
 body {
   font-family: arial;
   font-size: 10px;
-  background-color: #fff;
+  background-color:  #fff;
   color: white;
+  transition: background-color .5s;
+
 }
 
 .card__layout {
   display:flex;
   flex-wrap:wrap;
+
 }
 
 .card__container {
@@ -118,7 +118,7 @@ img {
 .menu {
   position: fixed;
   align-items: flex-end;
-  z-index: 500 !important;
+  z-index: 1;
   display: inline-block;
   background-color: #2966A3;
   padding: 10px;
@@ -128,6 +128,7 @@ img {
   opacity: 0.8;
   width: 500px;
   letter-spacing: 5px;
+  padding-left: 90px;
 
 }
 
