@@ -17,15 +17,14 @@
       <a href="../index.html">    HOME </a>
       .
 
-      <a href="reader1">    ONE </a>
-      .
-<br>
-      <a href="reader2">    TWO </a>
+      <a href="/Users/KerrieOJ/Documents/Websites/KerrieOJames.github.io/project3ideas/reader1">    ONE </a>
       .
 
-      <a href="reader3">    THREE </a>
+      <a href="/Users/KerrieOJ/Documents/Websites/KerrieOJames.github.io/project3ideas/reader2">    TWO </a>
       .
 
+      <a href="/Users/KerrieOJ/Documents/Websites/KerrieOJames.github.io/project3ideas/reader3">    THREE </a>
+      .
 
 
     </div>
@@ -138,7 +137,7 @@ this wilderness that is the native habitat of Internet memes.
               <div style="overflow:auto; overflow-x:hidden; height: 100px;">
             <a href="http://dpub.uriahgray.com/content/4-library/davison-thelanguageofinternetmemes.pdf?key=25157"> THE LANGUAGE OF INTERNET MEMES</a>
             <p>
-              Te purpose of this essay is twofold. Te frst is to contribute to a framework
+              The purpose of this essay is twofold. Te frst is to contribute to a framework
   for discussing so-called Internet memes. Internet memes are popular
   and recognizable but lack a rigorous descriptive vocabulary. I provide a few
   terms to aid in their discussion. Te second purpose is to consider Foucault’s
@@ -186,7 +185,7 @@ this wilderness that is the native habitat of Internet memes.
 
       <div class="col">
         <div class="content">
-          <img src="../project3ideas/assets/images/loch.jpg" alt="">
+          <img src="../project3ideas/assets/images/ownmeme.jpg" alt="">
         </div>
       </div>
 
@@ -194,8 +193,16 @@ this wilderness that is the native habitat of Internet memes.
       <div class="col">
         <div class="content">
           <div class="text">
+              <div style="overflow:auto; overflow-x:hidden; height: 100px;">
 
-            A memetic structure is any cultural institution, space, or community in which cultural products and communication survive based on Darwinian principles, similar to that of genetics. Memes adapt, evolve, and replicate based on their strength relative to the environment they exist within.
+            At the end of the book, Dawkins discusses two areas where evolutionary
+  theory might be heading next. It is here that he coins the term “meme.” He
+  acknowledges that much of human behavior comes not from genes but from
+  culture. He proposes that any nongenetic behavior be labeled as a meme and
+  then poses a question: can the application of genetic logic to memes be productive?
+  To make the diferences between genes and memes clear, I ofer a
+  short example of each.
+  </div
             <br>
             <br>
                        ___________________________
@@ -208,15 +215,27 @@ this wilderness that is the native habitat of Internet memes.
 
       <div class="col">
         <div class="content">
-          <img src="../project3ideas/assets/images/satan.jpg" alt="">
+          <img src="../project3ideas/assets/images/gene.jpg" alt="">
         </div>
       </div>
 
       <div class="col">
         <div class="content">
           <div class="text">
-
-            A memetic structure is any cultural institution, space, or community in which cultural products and communication survive based on Darwinian principles, similar to that of genetics. Memes adapt, evolve, and replicate based on their strength relative to the environment they exist within.
+    <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+            Genes determine an organism’s physical characteristics. A certain gene
+causes an organism to have short legs, or long, for instance. Imagine two
+zebra. The frst has the short-leg gene, and the second the long. A lion attacks
+them. The short-legged zebra runs more slowly and is eaten. The long-legged
+zebra runs more quickly (because of its legs) and lives. At this point, there
+are more long-leg genes in the imaginary ecosystem than short-leg genes.
+If the long-legged zebra breeds and has ofspring, those ofspring with long
+legs will continue to survive at a higher rate, and more ofspring of those ofspring
+will contain the long-leg gene. The genes themselves are not thinking
+beings—the long-leg gene does not know it causes long-leggedness, nor does
+it care, but given that it bestows a property that interacts with the environment
+to allow more of itself to be produced, it is successful.
+</div>
             <br>
             <br>
                        ___________________________
@@ -229,15 +248,28 @@ this wilderness that is the native habitat of Internet memes.
 
       <div class="col">
         <div class="content">
-          <img src="../project3ideas/assets/images/shark.jpg" alt="">
+          <img src="../project3ideas/assets/images/smellcolour.jpg" alt="">
         </div>
       </div>
 
       <div class="col">
         <div class="content">
           <div class="text">
-
-            A memetic structure is any cultural institution, space, or community in which cultural products and communication survive based on Darwinian principles, similar to that of genetics. Memes adapt, evolve, and replicate based on their strength relative to the environment they exist within.
+    <div style="overflow:auto; overflow-x:hidden; height: 100px;">
+            Memes determine the behavior of an organism. They are either taught to
+an organism (you go to school and learn math) or learned through experience
+(you stick a fnger in an outlet, get shocked, understand that outlets
+should be avoided). Imagine two soccer players. There are genetic factors
+which might make them better or worse at playing (long or short legs, for
+instance); however, their ability is also dependent on their understanding of
+the game. For this example, let us imagine that the two players are physically
+identical. However, one of them goes to practice, and the other does not. At
+practice, the coach teaches the attendant player about passing: you pass the
+ball to other players and increase the chance that your team will score. During
+a game, the attendant player is likely to pass and to experience success
+because of it. The truant player, having not learned the passing meme, will
+not pass, and that player’s team will sufer because of it
+</div>
             <br>
             <br>
                        ___________________________
@@ -259,7 +291,18 @@ this wilderness that is the native habitat of Internet memes.
           <div class="text">
 
             <div style="overflow: auto; width: 100%; height:100px;">
-        Generally, websites like 4chan have held a fairly benevolent role in popular culture. We see them as a kind of factory for bizarre trends, photoshopped images, and various other in-jokes unique to the vernacular of the web. But most of the memes that arise from this website act on or adapt previously held tropes and stereotypes within other areas of popular culture. However, as our cultural dialogue intermingles with political discourse and activism, so do our cultural products.
+              While genes rely on the physical process of reproduction to replicate,
+            memes rely on the mental processes of observation and learning. In our
+            example, the truant player comes to the game without the passing meme and
+            sufers. That player is, however, able to observe the attendant player passing,
+            and succeeding, and can decide to imitate the attendant player by passing as
+            well. The passing meme successfully replicates itself in a new organism without
+            the all-or-nothing cycle of life and death. Tis highlights one of the critical
+            diferences between genes and memes: speed of transmission. Compared
+            to genetic changes (which span generations upon generations), memetic
+            changes happen in the blink of an eye. Ofine memes, cultural cornerstones
+            like language or religion, are hyperfast when compared to their genetic counterparts.
+            Internet memes are even faster.
           </div>
             <br>
             <br>
