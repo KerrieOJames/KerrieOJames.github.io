@@ -5,15 +5,19 @@
 body {
   font-family: arial;
   font-size: 10px;
-  background-color:  #fff;
+  background-color:  #2966A3;
   color: white;
-  transition: background-color .5s;
+
+
 
 }
 
 .card__layout {
   display:flex;
   flex-wrap:wrap;
+
+  background-image: url("http://core0.staticworld.net/images/article/2015/07/windows-10-backdrop-100595742-primary.idge.png");
+  background-size: 100%;
 
 }
 
@@ -61,6 +65,7 @@ body {
 .row{
   display:flex;
   flex-wrap:wrap;
+  margin-left: 45px;
 
 }
 
@@ -116,19 +121,22 @@ img {
 }
 
 .menu {
+-webkit-transform: rotate(-90deg);
   position: fixed;
-  align-items: flex-end;
+
   z-index: 1;
   display: inline-block;
   background-color: #2966A3;
   padding: 10px;
   color: white;
-  margin-top: 580px;
-  align-content: bottom;
+margin-top: 200px;
+padding-left: 100px;
+
   opacity: 0.8;
   width: 500px;
   letter-spacing: 5px;
-  padding-left: 90px;
+
+
 
 }
 
@@ -144,7 +152,7 @@ a:visited {
     color: gold;
 }
 a:hover {
-    color: mediumspringgreen;
+    color: lightpink;
 }
 a:active {
     color: #59466f;
