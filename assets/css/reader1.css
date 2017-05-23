@@ -8,17 +8,12 @@ body {
   background-color:  indianred;
   color: white;
 
-
-
-
 }
 
 .card__layout {
   display:flex;
   flex-wrap:wrap;
 
-  background-image: url("http://core0.staticworld.net/images/article/2015/07/windows-10-backdrop-100595742-primary.idge.png");
-  background-size: 100%;
 
 }
 
@@ -133,12 +128,18 @@ img {
   color: white;
 margin-top: 200px;
 padding-left: 100px;
-
+  opacity: 0.8;
 
   width: 500px;
   letter-spacing: 5px;
 
+}
 
+.shit {
+
+    color: white;
+    -webkit-transform: rotate(-90deg);
+    margin-right: 900px
 
 }
 
