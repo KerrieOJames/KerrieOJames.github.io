@@ -13,7 +13,7 @@ body {
 .card__layout {
   display:flex;
   flex-wrap:wrap;
-
+  margin-right: 100px;
 
 }
 
@@ -42,10 +42,8 @@ body {
 }
 
 .card .side__back {
-  background: indianred;
+  background: slategrey;
   transform: rotateY(180deg);
-
-
   color: white;
 }
 
@@ -75,9 +73,6 @@ body {
 
 }
 
-.content{
-
-}
 
 .content img{
   width:100%;
@@ -118,20 +113,22 @@ img {
 }
 
 .menu {
--webkit-transform: rotate(-90deg);
-  position: fixed;
 
-  z-index: 1;
+
+  position: fixed;
+  z-index: 2;
   display: inline-block;
   background-color: indianred;
   padding: 10px;
   color: white;
-margin-top: 200px;
-padding-left: 100px;
+  -webkit-transform: rotate(90deg);
+  padding-left: 120px;
   opacity: 0.8;
-
+  margin-left: 1000px;
   width: 500px;
   letter-spacing: 5px;
+  margin-top: 300px;
+  margin-right: 60px;
 
 }
 
@@ -149,10 +146,10 @@ a {
 }
 
 a:link {
-    color: mediumturquoise;
+    color: aqua;
 }
 a:visited {
-    color: mediumturquoise;
+    color: aqua;
 }
 a:hover {
     color: lightpink;
