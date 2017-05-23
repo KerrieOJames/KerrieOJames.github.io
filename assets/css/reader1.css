@@ -2,9 +2,72 @@
   box-sizing:border-box;
 }
 
+body {
+  font-family: arial;
+  font-size: 10px;
+  background-color:  indianred;
+  color: white;
+
+
+
+
+}
+
+.card__layout {
+  display:flex;
+  flex-wrap:wrap;
+
+  background-image: url("http://core0.staticworld.net/images/article/2015/07/windows-10-backdrop-100595742-primary.idge.png");
+  background-size: 100%;
+
+}
+
+.card__container {
+  height: 200px;
+  position: relative;
+  flex:0 0 16.6666%;
+  width:200px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .side__back {
+  background: indianred;
+  transform: rotateY(180deg);
+
+
+  color: white;
+}
+
+.card .side img {
+  width: 100%;
+  height:100%;
+}
+
+
+
+
+
 .row{
   display:flex;
   flex-wrap:wrap;
+
+  margin: 30px 30px 0px 30px;
 
 }
 
@@ -29,7 +92,7 @@
 
 
 .col {
-  width: 16.67%;
+  width: 100%;
   display: inline-block;
   height: 200px;
   flex-grow: 1;
@@ -60,18 +123,22 @@ img {
 }
 
 .menu {
+-webkit-transform: rotate(-90deg);
   position: fixed;
-  align-items: flex-end;
+
+  z-index: 1;
   display: inline-block;
-  background-color: #2966A3;
+  background-color: indianred;
   padding: 10px;
   color: white;
-  margin-top: 580px;
-  align-content: bottom;
-  opacity: 0.8;
+margin-top: 200px;
+padding-left: 100px;
+
+
   width: 500px;
   letter-spacing: 5px;
-  
+
+
 
 }
 
@@ -81,13 +148,13 @@ a {
 }
 
 a:link {
-    color: gold;
+    color: mediumturquoise;
 }
 a:visited {
-    color: gold;
+    color: mediumturquoise;
 }
 a:hover {
-    color: mediumspringgreen;
+    color: lightpink;
 }
 a:active {
     color: #59466f;
