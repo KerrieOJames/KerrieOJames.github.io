@@ -42,7 +42,7 @@ body {
 }
 
 .card .side__back {
-  background: slategrey;
+  background-color: black;
   transform: rotateY(180deg);
   color: white;
 }
@@ -60,7 +60,6 @@ body {
   display:flex;
   flex-wrap:wrap;
 
-  margin: 30px 30px 0px 30px;
 
 }
 
@@ -124,11 +123,11 @@ img {
   -webkit-transform: rotate(90deg);
   padding-left: 120px;
   opacity: 0.8;
-  margin-left: 1000px;
+  margin-left: 1090px;
   width: 500px;
   letter-spacing: 5px;
   margin-top: 300px;
-  margin-right: 60px;
+
 
 }
 
