@@ -26,6 +26,7 @@ body {
   margin-right: 100px;
 
 
+
 }
 
 .card__container {
@@ -70,6 +71,8 @@ body {
 .row{
   display:flex;
   flex-wrap:wrap;
+  margin-left: 45px;
+  margin-top: 80px;
 
 
 }
@@ -133,7 +136,7 @@ img {
   color: white;
   -webkit-transform: rotate(90deg);
   padding-left: 120px;
-  
+
   margin-left: 1090px;
   width: 500px;
   letter-spacing: 5px;
