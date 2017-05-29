@@ -5,7 +5,7 @@
 body {
   font-family: arial;
   font-size: 10px;
-  background-color:  #2966A3;
+  background-color:  steelblue;
   color: white;
 
 
@@ -16,9 +16,7 @@ body {
 .card__layout {
   display:flex;
   flex-wrap:wrap;
-
-  background-image: url("http://core0.staticworld.net/images/article/2015/07/windows-10-backdrop-100595742-primary.idge.png");
-  background-size: 100%;
+  margin-right: 100px;
 
 }
 
@@ -123,20 +121,19 @@ img {
 }
 
 .menu {
--webkit-transform: rotate(-90deg);
   position: fixed;
-
-  z-index: 1;
+  z-index: 2;
   display: inline-block;
-  background-color: #2966A3;
+  background-color: steelblue;
   padding: 10px;
   color: white;
-margin-top: 200px;
-padding-left: 100px;
+  -webkit-transform: rotate(90deg);
+  padding-left: 120px;
 
-  opacity: 0.8;
+  margin-left: 1090px;
   width: 500px;
   letter-spacing: 5px;
+  margin-top: 300px;
 
 
 
