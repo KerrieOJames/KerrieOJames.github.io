@@ -173,11 +173,11 @@ img {
   position: fixed;
   z-index: 2;
   display: inline-block;
+
   padding: 10px;
   color: white;
   -webkit-transform: rotate(90deg);
-  padding-left: 120px;
-
+  padding-left: 180px;
   margin-left: 1120px;
   width: 500px;
   letter-spacing: 5px;
