@@ -45,7 +45,7 @@ body {
 }
 
 .card .side__back {
-  background: steelblue;
+  background:  #5195a6;
   transform: rotateY(180deg);
 
 
@@ -109,7 +109,7 @@ img {
 .text {
   font-size: 10px;
   color: white;
-  background-color: steelblue;
+  background-color:  #5195a6;
   display: inline-block;
   font-family: helvetica;
   padding-top: 50px;
@@ -124,7 +124,7 @@ img {
   position: fixed;
   z-index: 2;
   display: inline-block;
-  background-color: #5195a6;
+  background-color:  #5195a6;
   padding: 10px;
   color: white;
   -webkit-transform: rotate(90deg);
