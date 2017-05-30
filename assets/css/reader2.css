@@ -7,11 +7,60 @@ body {
   font-size: 10px;
   background-color:  #5195a6;
   color: white;
-
-
-
-
 }
+
+
+
+
+.contain {
+  padding: 20px;
+}
+
+@-webkit-keyframes pulse_animation {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: 'pulse_animation';
+  -webkit-animation-duration: 3000ms;
+  -webkit-transform-origin: 70% 70%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+img.pulse {
+  width: 50px;
+  margin-top: 20px;
+}
+
+
+
+
 
 .card__layout {
   display:flex;
@@ -124,7 +173,7 @@ img {
   position: fixed;
   z-index: 2;
   display: inline-block;
-  background-color: #5195a6;
+
   padding: 10px;
   color: white;
   -webkit-transform: rotate(90deg);
@@ -133,7 +182,7 @@ img {
   width: 500px;
   letter-spacing: 5px;
   margin-top: 300px;
-  
+
 
 
 }
