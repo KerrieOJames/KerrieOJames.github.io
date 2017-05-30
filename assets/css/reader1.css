@@ -203,10 +203,10 @@ a {
 }
 
 a:link {
-    color: aqua;
+    color: black;
 }
 a:visited {
-    color: aqua;
+    color: black;
 }
 a:hover {
     color: lightpink;
