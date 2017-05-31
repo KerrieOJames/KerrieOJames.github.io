@@ -56,6 +56,7 @@ body {
 img.pulse {
   width: 50px;
   margin-top: 20px;
+
 }
 
 
@@ -67,6 +68,7 @@ img.pulse {
   flex-wrap:wrap;
   margin-right: 100px;
 
+
 }
 
 .card__container {
@@ -74,6 +76,8 @@ img.pulse {
   position: relative;
   flex:0 0 16.6666%;
   width:200px;
+  margin: 10px;
+
 }
 .card {
   height: 100%;
@@ -81,6 +85,7 @@ img.pulse {
   transform-style: preserve-3d;
   transition: all 1s;
   width: 100%;
+
 }
 .card:hover {
   transform: rotateY(180deg);

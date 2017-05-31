@@ -11,6 +11,7 @@ body {
 
 .contain {
   padding: 20px;
+
 }
 
 @-webkit-keyframes pulse_animation {
@@ -53,6 +54,7 @@ body {
 img.pulse {
   width: 50px;
   margin-top: 20px;
+
 }
 
 
@@ -70,7 +72,8 @@ img.pulse {
 .card__layout {
   display:flex;
   flex-wrap:wrap;
-  margin-right: 100px;
+  margin-right: 40px;
+
 }
 
 .card__container {
@@ -78,6 +81,7 @@ img.pulse {
   position: relative;
   flex:0 0 16.6666%;
   width:200px;
+  margin: 5px;
 }
 
 .card {
