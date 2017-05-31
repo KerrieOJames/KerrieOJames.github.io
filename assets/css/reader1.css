@@ -72,7 +72,7 @@ img.pulse {
 .card__layout {
   display:flex;
   flex-wrap:wrap;
-  margin-right: 40px;
+  margin-right: 100px;
 
 }
 
@@ -81,7 +81,8 @@ img.pulse {
   position: relative;
   flex:0 0 16.6666%;
   width:200px;
-  margin: 5px;
+  margin: 10px;
+
 }
 
 .card {
@@ -178,6 +179,7 @@ img {
 .menu {
 
 
+
   position: fixed;
   z-index: 2;
   display: inline-block;
@@ -186,14 +188,13 @@ img {
   color: white;
   -webkit-transform: rotate(90deg);
   padding-left: 180px;
-  margin-left: 1120px;
+  margin-left: 970px;
   width: 500px;
   letter-spacing: 5px;
   margin-top: 300px;
-
-
-
 }
+
+
 
 .shit {
     color: white;

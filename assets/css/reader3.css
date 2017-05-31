@@ -75,7 +75,7 @@ img.pulse {
   position: relative;
   flex:0 0 16.6666%;
   width:200px;
-  
+  margin: 10px;
 }
 .card {
   height: 100%;
@@ -180,11 +180,10 @@ img {
   color: white;
   -webkit-transform: rotate(90deg);
   padding-left: 180px;
-  margin-left: 1120px;
+  margin-left: 970px;
   width: 500px;
   letter-spacing: 5px;
   margin-top: 300px;
-
 
 
 
