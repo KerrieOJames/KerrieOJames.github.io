@@ -5,30 +5,11 @@
   box-sizing: border-box;
 }
 
-body {
-  background: antiquewhite;
-}
 
-.text {
-  position: absolute;
-  font-size: 10px;
-  font-family: arial;
-  margin-left: 400px;
-  margin-top: 400px;
-  width: 200px;
-  height: 300px;
-  letter-spacing: 10px;
-}
 
-.poster {
-  margin-top: 440px;
-  margin-left: 810px;
-  z-index: 20;
-}
 
-.five {
-  color: white;
-}
+/* Start here */
+
 
 .nextpage {
 	width: 0;
@@ -37,46 +18,133 @@ body {
 	border-left: 100px solid #9ea051;
 	border-bottom: 50px solid transparent;
   z-index: 10;
-  margin-left: 800px;
-  z-index: 10;
+  margin-left: 990px;
+  margin-top: 350px;
   position: fixed;
-  bottom: 200px;
+
 }
 
-.rotate {
-  transform: rotate(-90deg);
+.type {
+  display: inline-block;
+  position: fixed;
+  color: black;
+  font-family: helvetica;
+
+  z-index: 10;
+  margin-left: 480px;
   margin-top: 200px;
 
 }
-
-.two {
-  margin-bottom: 120px;
-  z-index: 9;
+.sml {
+  font-size: 11px;
+  font-weight: bold;
 }
-
-.links {
-  border: 1px dashed blue;
-  width: 120px;
-  height: 180px;
-    margin-left: 790px;
-    margin-top: 200px;
-    z-index: 1;
-    position: absolute;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:link {
+.text {
+font-weight: bold;
+font-size: 20px;
+margin-top:
 
 }
-a:visited {
+
+.text2 {
+  margin-top: 100px;
+  font-size: 15px;
+  margin-left: 200px;
+}
+h5 {
+  margin-left: 200px;
+  font-size: 9px;
+  margin-top: 130px;
+}
+
+.box {
+  display: inline-block;
+  width: 500px;
+  height: 900px;
+  color: grey;
+  background: #f5e1bc;
+}
+h2 {
+  font-size: 110px;
+  color: #f5e1bc;
+  font-family: Times;
+  margin-bottom: 50px;
+}
+
+
+
+.hexagon {
+	width: 200px;
+	height: 110px;
+	background: #9ea051;
+	position: relative;
+  margin-top: 80px;
+  opacity: 0.6;
+  margin-left: 100px;
+
 
 }
-a:hover {
-    color:  #ff1a66;
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+  border-bottom: 50px solid #9ea051;
 }
-a:active {
-    color: #59466f;
+.hexagon:after {
+content: "";
+position: absolute;
+bottom: -50px;
+left: 0;
+width: 0;
+height: 0;
+border-left: 100px solid transparent;
+border-right: 100px solid transparent;
+border-top: 50px solid #9ea051;
 }
+
+
+
+
+.hexagon2 {
+  width: 200px;
+	height: 110px;
+	background: #9ea051;
+	position: relative;
+margin-top: 250px;
+margin-left: 100px;
+
+}
+.hexagon2:before {
+	content: "";
+	position: absolute;
+	top: -50px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+  border-bottom: 50px solid #9ea051;
+
+}
+.hexagon2:after {
+content: "";
+position: absolute;
+bottom: -50px;
+left: 0;
+width: 0;
+height: 0;
+border-left: 100px solid transparent;
+border-right: 100px solid transparent;
+border-top: 50px solid #9ea051;
+}
+
+
+
+.hexa {
+  margin-left: 100px;
+  z-index: 1;

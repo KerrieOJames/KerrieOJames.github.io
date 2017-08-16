@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 .nextpage {
 	width: 0;
 	height: 0;
@@ -14,135 +13,79 @@
 	border-bottom: 50px solid transparent;
   z-index: 10;
   margin-left: 990px;
-  margin-top: 350px;
-  position: fixed;
-  
-}
-
-.type {
-  display: inline-block;
-  position: fixed;
-  color: black;
-  font-family: helvetica;
-
   z-index: 10;
-  margin-left: 480px;
-  margin-top: 200px;
+  position: fixed;
+  bottom: 200px;
 
-}
-.sml {
-  font-size: 11px;
-  font-weight: bold;
-}
-.text {
-font-weight: bold;
-font-size: 20px;
-margin-top:
-
-}
-
-.text2 {
-  margin-top: 100px;
-  font-size: 15px;
-  margin-left: 200px;
-}
-h5 {
-  margin-left: 200px;
-  font-size: 9px;
-  margin-top: 130px;
 }
 
 .box {
-  display: inline-block;
-
-  width: 500px;
-  height: 900px;
-  color: grey;
-  background: #f5e1bc;
-}
-h2 {
-  font-size: 110px;
-  color: #f5e1bc;
-  font-family: Times;
-  margin-bottom: 50px;
+  width: 90px;
+  color: pink;
+  background: black;
+  height: 10000px;
+  position: fixed;
+  z-index: 10;
 }
 
-
-
-.hexagon {
-	width: 200px;
-	height: 110px;
-	background: #9ea051;
-	position: relative;
-  margin-top: 80px;
-  opacity: 0.6;
-  margin-left: 100px;
-
+body {
+  background: black;
 
 }
-.hexagon:before {
-	content: "";
-	position: absolute;
-	top: -50px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-  border-bottom: 50px solid #9ea051;
-}
-.hexagon:after {
-content: "";
-position: absolute;
-bottom: -50px;
-left: 0;
-width: 0;
-height: 0;
-border-left: 100px solid transparent;
-border-right: 100px solid transparent;
-border-top: 50px solid #9ea051;
-}
 
-
-
-
-.hexagon2 {
-  width: 200px;
-	height: 110px;
-	background: #9ea051;
-	position: relative;
-margin-top: 250px;
-margin-left: 100px;
-
-}
-.hexagon2:before {
-	content: "";
-	position: absolute;
-	top: -50px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-  border-bottom: 50px solid #9ea051;
-
-}
-.hexagon2:after {
-content: "";
-position: absolute;
-bottom: -50px;
-left: 0;
-width: 0;
-height: 0;
-border-left: 100px solid transparent;
-border-right: 100px solid transparent;
-border-top: 50px solid #9ea051;
-}
-
-
-
-.hexa {
-  margin-left: 100px;
+.text {
+  margin: 20px;
+  font-size: 50px;
+  letter-spacing: 15px;
+  font-family: arial ;
+  color: white;
   z-index: 1;
 
+}
+
+.line1 {
+  color: white;
+  font-weight: bolder;
+  padding-top: 20px;
+
+}
+
+.line2 {
+  padding-top: 20px;
+}
+
+
+.line3 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+
+.line4 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+
+.line5 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+.line6 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+
+.line7 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+
+.line8 {
+  font-family: helvetica;
+  padding-top: 20px;
+  font-weight:100;
 }
