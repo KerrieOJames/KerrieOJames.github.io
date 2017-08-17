@@ -10,6 +10,19 @@ body {
 
 }
 
+.nextpage {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid #9ea051;
+	border-bottom: 50px solid transparent;
+  z-index: 10;
+  margin-left: 1050px;
+  margin-top: 350px;
+  position: fixed;
+
+}
+
 .circle.showme {
 display:block;
 }
@@ -19,19 +32,22 @@ display:none;
 }
 
 .pulsate {
-    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation: pulsate 5s ease-out;
     -webkit-animation-iteration-count: infinite;
     opacity: 0.5;
 }
 @-webkit-keyframes pulsate {
     0% {
         opacity: 0.5;
+        color: lightseagreen;
     }
     50% {
         opacity: 1.0;
+        color: black;
     }
     100% {
         opacity: 0.5;
+        color: peachpuff;
     }
 }
 
@@ -49,6 +65,8 @@ display:none;
     margin-left: 400px;
 
 }
+
+
 
 .text {
   font-family: helvetica;
