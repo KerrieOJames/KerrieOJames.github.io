@@ -7,23 +7,12 @@ $(document).ready(function() {
 
 
 
+$(function() {
+$('.star').click(function(){
+    $(this).css('background', 'yellow');
 
-
-  var audioBell = document.createElement('audio');
-  audioBell.setAttribute('src', 'http://www.soundjay.com/misc/sounds/bell-ringing-01.mp3');
-  $.get();
-  audioBell.addEventListener("load", function() {
-    audioBell.play();
-  }, true);
-
-  var audioHorn = document.createElement('audio');
-  audioHorn.setAttribute('src', 'https://www.soundjay.com/misc/hohner-melodica-1.mp3');
-  $.get();
-  audioHorn.addEventListener("load", function() {
-    audioHorn.play();
-  }, true);
-
-
+  });
+});
 
 
 

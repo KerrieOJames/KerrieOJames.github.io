@@ -10,6 +10,20 @@
 
 /* Start here */
 
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+.text {
+
+    width: 16.5em;
+    width: 21ch;
+    margin: 2em 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(21, end),
+               blink-caret .5s step-end infinite alternate;
+}
+
 .text {
   position: fixed;
   color: black;
@@ -19,6 +33,27 @@
   font-weight: 400;
   z-index: 300;
 
+}
+
+
+.clicked {
+  background-color: yellow;
+}
+
+
+.type {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 600px;
+  padding-top: 100px;
+  z-index: 1;
+  position: absolute;
+}
+
+.one {
+  font-size: 0.7em;
+  margin-top: 20px;
 }
 
 body {
