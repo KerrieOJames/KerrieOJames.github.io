@@ -7,7 +7,6 @@
 
 
 
-
 /* Start here */
 
 @-webkit-keyframes typing { from { width: 0; } }
@@ -170,6 +169,8 @@ h1 {
   z-index: 3;
 
 }
+
+
 .trapezoid4 {
 	border-bottom: 300px solid #ad590e;
   border-left: 100px solid transparent;

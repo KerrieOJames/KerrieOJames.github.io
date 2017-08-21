@@ -35,6 +35,53 @@
                blink-caret .5s step-end infinite alternate;
 }
 
+.volk {
+  color: blue;
+}
+
+.nav {
+  align-items: baseline;
+  width: 100%;
+  height: 40px;
+  color: red;
+  z-index: 100;
+  display: inline-block;
+  position: fixed;
+  background: darkred;
+  margin-top: 680px;
+  text-align: center;
+  padding-top: 6px;
+  font-size: 10px;
+  letter-spacing: 10px;
+
+}
+
+.next {
+  margin-left: 300px;
+}
+
+.back {
+  margin-right: 300px;
+}
+
+a {
+  text-decoration: none;
+  font-family: arial;
+}
+
+a:link {
+    color: tomato;
+}
+a:visited {
+    color: tomato;
+}
+a:hover {
+    color: lightpink;
+}
+a:active {
+    color: #59466f;
+}
+
 .box {
   width: 90px;
   color: pink;
