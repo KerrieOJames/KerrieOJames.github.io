@@ -20,11 +20,47 @@ body {
   	-webkit-border-radius: 50px;
   	border-radius: 50px;
     z-index: 10;
-    margin-left: 1050px;
-    margin-top: 350px;
+    letter-spacing: 5px;
+
     position: fixed;
 
 
+}
+
+.back {
+  margin-left: 10px;
+  margin-left: 1050px;
+}
+
+.home {
+margin-left: 10px;
+margin-top: 230px;
+margin-left: 1050px;
+}
+
+.next {
+  margin-top: 450px;
+  margin-left: 1050px;
+
+}
+
+
+a {
+  text-decoration: none;
+  font-family: arial;
+}
+
+a:link {
+    color: tomato;
+}
+a:visited {
+    color: tomato;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: #59466f;
 }
 
 
