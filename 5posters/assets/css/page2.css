@@ -89,15 +89,16 @@ h1 {
   margin-left: 400px;
   z-index: 10;
   -webkit-transition: border 2s ease-out;
--moz-transition: border 2s ease-out;
--o-transition: border 2s ease-out;
-transition: border 2s ease-out;
+
+
 }
 
 .trapezoidblue:hover {
 border-bottom: 70px solid  #ad590e;
 cursor: pointer;
 opacity: 1;
+
+
 
 }
 
@@ -113,15 +114,14 @@ opacity: 1;
   position: fixed;
   margin-top: 100px;
   -webkit-transition: border 2s ease-out;
--moz-transition: border 2s ease-out;
--o-transition: border 2s ease-out;
-transition: border 2s ease-out;
+-webkit-transition: margin-left 1s ease-out;
 }
 
 .trapezoidblue2:hover {
 border-bottom: 50px solid  #ad590e;
 cursor: pointer;
 opacity: 1;
+margin-left: 0px;
 
 }
 
@@ -149,12 +149,14 @@ opacity: 1;
 -moz-transition: border 2s ease-out;
 -o-transition: border 1s ease-out;
 transition: border 1s ease-out;
+-webkit-transition: margin-left 4s ease-out;
 }
 
 .trapezoidblue3:hover {
-border-bottom: 130px solid  #ad590e;
+border-bottom: 100px solid  #ad590e;
 cursor: pointer;
 opacity: 1;
+margin-left: 1990px;
 
 }
 
@@ -171,11 +173,11 @@ opacity: 1;
   margin-top: 200px;
     transform: rotate(180deg);
     -webkit-transition: border 3s ease-out;
-    -webkit-transition: margin-top 3s ease-out;
+    -webkit-transition: margin-top 2s ease-out;
   }
 
   .trapezoidblue4:hover {
-  border-bottom: 50px solid  #ad590e;
+  border-bottom: 100px solid  #ad590e;
   cursor: pointer;
   opacity: 1;
   margin-top: 400px;
@@ -183,7 +185,7 @@ opacity: 1;
 
 
 .trapezoidblue5 {
-	border-bottom: 100px solid #76b4c4;;
+	border-bottom: 100px solid #76b4c4;
 	border-right: 50px solid transparent;
 	height: 0px;
 	width: 300px;
@@ -194,6 +196,15 @@ opacity: 1;
   position: fixed;
 
     transform: rotate(270deg);
+    -webkit-transition: border 3s ease-out;
+    -webkit-transition: margin-top 2s ease-out;
+  }
+
+  .trapezoidblue5:hover {
+  border-bottom: 50px solid  #ad590e;
+  cursor: pointer;
+  opacity: 1;
+  margin-top: 400px;
 
 }
 
@@ -203,6 +214,16 @@ opacity: 1;
 	border-bottom: 100px solid #ad590e;
 	border-right: 100px solid transparent;
   margin-top: 100px;
+  -webkit-transition: border 3s ease-out;
+  -webkit-transition: margin-top 2s ease-out;
+}
+
+.triangle-topright4:hover {
+border-bottom: 50px solid  #76b4c4;
+cursor: pointer;
+opacity: 0.7;
+margin-top: 400px;
+
 }
 
 
@@ -214,6 +235,16 @@ opacity: 1;
 	width: 360px;
   transform: rotate(90deg);
   z-index: 3;
+  -webkit-transition: border 3s ease-out;
+  -webkit-transition: margin-top 2s ease-out;
+}
+
+.triangle-topright4:hover {
+border-bottom: 50px solid  #76b4c4;
+cursor: pointer;
+opacity: 0.7;
+margin-top: 400px;
+
 
 }
 
@@ -226,8 +257,17 @@ opacity: 1;
 	height: 0px;
 	width: 200px;
   transform: rotate(270deg);
-  z-index: 6;
+  z-index: 5;
+  position: fixed;
+  -webkit-transition: border 3s ease-out;
+  -webkit-transition: margin-top 2s ease-out;
+}
 
+.trapezoid4:hover {
+border-bottom: 300px solid  #76b4c4;
+cursor: pointer;
+opacity: 0.7;
+margin-top: 400px;
 
 }
 
@@ -241,6 +281,7 @@ opacity: 1;
   width: 200px;
   transform: rotate(270deg);
   z-index: 6;
+  margin-top: 150px;
 
 }
 
