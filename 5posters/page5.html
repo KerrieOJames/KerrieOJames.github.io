@@ -7,29 +7,27 @@
     <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
     <script src="assets/js/page5.js" charset="utf-8"></script>
 
-    <script>
 
-    THREE.ShapeUtils.triangulateShape = (function () {
-            var pnlTriangulator = new PNLTRI.Triangulator();
-            return function triangulateShape(contour, holes) {
-                return pnlTriangulator.triangulate_polygon([contour].concat(holes));
-            };
-        })();
-  </script>
 
   </head>
   <body>
 
+    <script>
+    	THREE.ShapeUtils.triangulateShape = (function () {
+    	        var pnlTriangulator = new PNLTRI.Triangulator();
+    	        return function triangulateShape(contour, holes) {
+    	            return pnlTriangulator.triangulate_polygon([contour].concat(holes));
+    	        };
+    	    })();
+    </script>
 
+    <div id="three-container">
 
-  <div id="three-container">
-jhgk
-  </div>
+    </div>
 
-  <div id="instructions">
-  	click and drag to control the animation
-  </div>
-
+    <div id="instructions">
+    	click and drag to control the animation
+    </div>
 
 
 

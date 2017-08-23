@@ -16,7 +16,7 @@ body {
 	overflow: hidden;
 }
 
-.instructions {
+#instructions {
 	position: absolute;
 	color: #666;
 	bottom: 0;
