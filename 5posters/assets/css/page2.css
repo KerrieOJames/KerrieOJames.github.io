@@ -20,6 +20,7 @@
     overflow: hidden;
     -webkit-animation: typing 2s steps(21, end),
                blink-caret .5s step-end infinite alternate;
+
 }
 
 .text {
@@ -30,6 +31,7 @@
   font-size: 30px;
   font-weight: 400;
   z-index: 300;
+  text-shadow: 1px 1px 1px #76b4c4;
 
 }
 
@@ -89,6 +91,7 @@ h1 {
   margin-left: 400px;
   z-index: 10;
   -webkit-transition: border 2s ease-out;
+
 
 
 }

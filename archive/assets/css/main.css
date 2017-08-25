@@ -5,156 +5,60 @@
   box-sizing: border-box;
 }
 
+
+
+
+/* Start here */
+
 body {
   margin: 0px;
 }
 
-.nextpage {
-	width: 0;
-	height: 0;
-	border-top: 50px solid transparent;
-	border-left: 100px solid #9ea051;
-	border-bottom: 50px solid transparent;
-  z-index: 10;
-  margin-left: 990px;
-  z-index: 10;
-  position: fixed;
-  bottom: 200px;
-
-}
-
-
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
-
-.text {
-    font: bold 300% Consolas, Monaco, monospace;
-    border-right: .1em solid black;
-    width: 18.5em;
-
-    margin: 2em 1em;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 2s steps(21, end),
-               blink-caret .5s step-end infinite alternate;
-}
-
-.volk {
-  color: darkred;
-}
-
-.nav {
-  align-items: baseline;
-  width: 100%;
-  height: 60px;
-  color: red;
-  z-index: 100;
-  display: inline-block;
-  position: fixed;
-  background: darkred;
-  margin-top: 650px;
-  text-align: center;
-  padding-top: 15px;
-  font-size: 10px;
-  letter-spacing: 10px;
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
 
 
 }
 
-.next {
-  margin-left: 300px;
-}
+.content {
+  padding: 20px;
+  margin: 28px;
+  background-image: url("assets/images/mussel.jpg");
 
-.back {
-  margin-right: 300px;
-}
-
-a {
-  text-decoration: none;
-  font-family: arial;
-}
-
-a:link {
-    color: tomato;
-}
-a:visited {
-    color: tomato;
-}
-a:hover {
-    color: lightpink;
-}
-a:active {
-    color: #59466f;
 }
 
 .box {
-  width: 90px;
-  color: pink;
-  background: black;
-  height: 10000px;
-  position: fixed;
-  z-index: 10;
+  flex: 0 0 25%;;
 }
 
-body {
-  background: black;
+.box .content {
 
 }
 
-.text {
-  margin: 20px;
-  font-size: 50px;
-  letter-spacing: 15px;
-  font-family: arial ;
-  color: white;
-  z-index: 1;
+.box {
+  padding: 20px;
+  text-align: center;
+  font-family: arial;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  font-size: 24;
+  text-transform: uppercase;
+}
+
+.box1 {
 
 
 }
 
-.line1 {
-  color: white;
-  font-weight: bolder;
-  padding-top: 20px;
+.box2 {
+
+
 
 }
 
-.line2 {
-  padding-top: 20px;
-}
+.box3 {
+  background-color: lightblue;
 
-
-.line3 {
-  padding-top: 20px;
-  font-weight: lighter;
-}
-
-
-.line4 {
-  padding-top: 20px;
-  font-weight: lighter;
-}
-
-
-.line5 {
-  padding-top: 20px;
-  font-weight: lighter;
-}
-
-.line6 {
-  padding-top: 20px;
-  font-weight: lighter;
-}
-
-
-.line7 {
-  padding-top: 20px;
-  font-weight: lighter;
-}
-
-
-.line8 {
-  font-family: helvetica;
-  padding-top: 20px;
-  font-weight:100;
 }
