@@ -5,89 +5,54 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+}
 
 
 
 /* Start here */
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-.h1 {
-  z-index: 1000;
-  position: fixed;
-  font-size: 20;
-  font-weight: bold;
-}
-
-html {
-  background: radial-gradient(#222, #000);
-  background-attachment: fixed;
-  background: rgba(15, 163, 230, 0.9);
-}
-
 body {
-  position: absolute;
-  top: calc(50% - 65px);
-  left: calc(50% - 455px);
-  margin: 0 auto;
-  overflow: hidden;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 0;
 
 }
 
-.luminaire {
-  z-index: 1;
-  position: relative;
-  display: inline-block;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  border-radius: 80%;
-  background-color: rgba(254, 246, 0, 0.9);
-  box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #0ff;
-  transition: box-shadow 4s ease-out;
-  animation: spin 16s linear infinite;
-}
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
+img {
+  width: 100%;
 }
 
-.luminaire:hover {
-  cursor: pointer;
+.text {
+  align-items: center;
+  position: fixed;
+  font-size: 30px;
+  color: white;
+  font-family: arial;
+  align-content: center;
+
+  margin-top: 200px;
+  font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  padding-left: 600px;
+  padding-right: 90px;
+  width: 900px;;
 }
 
-.luminaire::before, .luminaire::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: calc(50% - 10px);
-  left: calc(50% - 10px);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #fff;
-  box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #ff0;
-  opacity: 0;
-  transition: opacity 8s, transform 8s;
+a {
+  text-decoration: none;
 }
 
-.on {
-  background-color: #fff;
-  box-shadow: 0 0 80px 40px #fff, 0 0 200px 100px #0ff;
-}
 
-.on::before {
-  transform: translateX(-100px);
-  opacity: 1;
-}
 
-.on::after {
-  transform: translateX(100px);
-  opacity: 1;
+a:link {
+    color:white;
+}
+a:visited {
+    color:white;
+}
+a:hover {
+    color: darkblue;
+}
+a:active {
+    color: darkblue;
 }
