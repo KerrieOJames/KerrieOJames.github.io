@@ -63,7 +63,7 @@ body {
 
 .luminaire {
 
-  position: fixed;
+  position: relative;
   display: inline-block;
   width: 400px;
   height: 400px;
@@ -92,7 +92,7 @@ body {
   left: calc(50% - 10px);
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 80%;
   background-color: #fff;
   box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #ff0;
   opacity: 0;
