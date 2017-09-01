@@ -14,11 +14,30 @@
   box-sizing: border-box;
 }
 
+
 .h1 {
   z-index: 1000;
   position: fixed;
   font-size: 20;
   font-weight: bold;
+}
+
+.textbox {
+  position: fixed;
+  margin-top: 0;
+  width: 800px;
+  z-index: 1000;
+}
+
+.number {
+  text-align: right;
+  font-size: 60px;
+  font-family: arial;
+  display: inline-block;
+  float: right;
+  font-weight: bold;
+
+
 }
 
 html {
@@ -33,14 +52,14 @@ body {
   left: calc(50% - 455px);
   margin: 0 auto;
   overflow: hidden;
-  text-align: center;
+
   white-space: nowrap;
-  font-size: 0;
+
 
 }
 
 .luminaire {
-  z-index: 1;
+
   position: relative;
   display: inline-block;
   width: 300px;
@@ -68,8 +87,8 @@ body {
   position: absolute;
   top: calc(50% - 10px);
   left: calc(50% - 10px);
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #ff0;
