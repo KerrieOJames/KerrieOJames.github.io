@@ -12,6 +12,13 @@ $(function() {
   });
 });
 
+$(function() {
+  $('.luminaire:nth-child(2n)').removeclass('on');
+  $('.luminaire').off('click', function() {
+    $(this).toggleClass('off');
+  });
+});
+
 
 
 

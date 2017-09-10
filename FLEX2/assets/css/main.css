@@ -10,147 +10,52 @@
 
 /* Start here */
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-html {
-
-}
-.hangright {
-  float: right;
-  margin-left: 200px;
+body {
+background-color: rgba(255, 0, 0, 0.5);
 }
 
 body {
-
-  top: calc(50% - 65px);
-  left: calc(50% - 455px);
-  margin: 0 auto;
-  overflow: hidden;
-
-  white-space: nowrap;
-  height: 900px;
-  background: radial-gradient(#222, #000);
-  background-attachment: fixed;
-  background: rgba(15, 163, 230, 0.9);
-
-
+  margin: 0px;
 }
 
-#canvas {
-    width: 2000px;
-    height: 1000px;
-}
-
-.bold {
-  z-index: 1000;
-  position: fixed;
-  font-size: 20;
-  font-weight: bold;
-  font-family: arial;
-}
-
-.textbox {
-  position: fixed;
-
-  width: 800px;
-  z-index: 1000;
-  font-family: arial;
-  text-align: center;
-    flex: 1 0 100%;
-
-}
-
-.number {
-  text-align: right;
-  font-size: 60px;
-  font-family: arial;
-  display: inline-block;
-  float: right;
-  font-weight: bold;
-
-
-}
-
-.bottom {
-  position:absolute;
-  bottom:0px;
-  margin-top: 800px;
-
-
-
-}
-
-.one {
-    flex: 1 0 33.3333%;
-}
-
-.two {
-    flex: 1 0 33.3333%;
-}
-
-.three {
-
-    flex: 1 0 33.3333%;
-}
-
-.poster {
-  display: flex;
-    margin-top: 200px;
-}
-
-
-
-.luminaire {
-
-  position: relative;
-  display: inline-block;
-  width: 400px;
-  height: 400px;
-  margin: 50px;
-  border-radius: 80%;
-  background-color: rgba(254, 246, 0, 0.9);
-  box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #0ff;
-  transition: box-shadow 4s ease-out;
-  animation: spin 16s linear infinite;
-}
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.luminaire:hover {
-  cursor: pointer;
-}
-
-.luminaire::before, .luminaire::after {
-  content: '';
+img {
+  max-width: 100%;
   display: block;
-  position: absolute;
-  top: calc(50% - 10px);
-  left: calc(50% - 10px);
-  width: 40px;
-  height: 40px;
-  border-radius: 80%;
-  background-color: #fff;
-  box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #ff0;
-  opacity: 0;
-  transition: opacity 8s, transform 8s;
+  margin: auto;
 }
 
-.on {
-  background-color: #fff;
-  box-shadow: 0 0 80px 40px #fff, 0 0 200px 100px #0ff;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
-.on::before {
-  transform: translateX(-100px);
-  opacity: 1;
+.content {
+  padding: 10px;
 }
 
-.on::after {
-  transform: translateX(100px);
-  opacity: 1;
+
+.col1of3 {
+  flex:0 0 25%;
+
+}
+
+.col1of4{
+  flex: 0 0 25%;
+
+}
+
+
+.col1of1{
+  flex: 0 0 100%;
+
+}
+
+.title {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  font-family: arial;
+  text-transform: capitalize;
 }
