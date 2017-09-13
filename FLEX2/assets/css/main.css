@@ -16,6 +16,7 @@ background-color: rgba(255, 0, 0, 0.5);
 
 body {
   margin: 0px;
+   background: linear-gradient(black, midnightblue, darkred, lightsteelblue)
 }
 
 img {
@@ -28,7 +29,9 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-top: 200px;
+  z-index: 1;
 }
 
 .content {
@@ -37,25 +40,33 @@ img {
 
 
 .col1of3 {
-  flex:0 0 25%;
+  flex:1 0 20%;
 
 }
 
 .col1of4{
-  flex: 0 0 25%;
+  flex: 1 0 20%;
 
 }
 
 
 .col1of1{
-  flex: 0 0 100%;
+  flex: 1 0 100%;
 
 }
 
 .title {
-  font-size: 20px;
+  font-size: 10px;
   color: white;
-  margin-top: 20px;
+  margin-top: 150px;
   font-family: arial;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  padding-bottom: 200px;
+  margin-left: 900px;
+  position: fixed;
+  float: right;
+  display: block;
+  z-index: 10;
+  letter-spacing: 10px;
+
 }
