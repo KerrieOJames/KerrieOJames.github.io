@@ -68,6 +68,8 @@ img {
   display: block;
   z-index: 10;
   letter-spacing: 10px;
+  color: cornsilk;
+  text-shadow: 10px;
 
 }
 
