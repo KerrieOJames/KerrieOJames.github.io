@@ -38,6 +38,40 @@ body {
 
 }
 
+.circle {
+  padding: 10px;
+	width: 100px;
+	height: 100px;
+	background:#ff0;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  border: 1px solid lightblue;
+}
+
+a {
+  text-decoration: none;
+  font-size: 10px;
+  font-family: arial;
+  padding: 5px;
+  color: lightblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+
+a:hover {
+    color: black;
+}
+a:active {
+    color: #59466f;
+}
+
+
+
+
 #canvas {
     width: 2000px;
     height: 1000px;
@@ -97,7 +131,8 @@ body {
 
 .poster {
   display: flex;
-    margin-top: 200px;
+    padding-top: 200px;
+
 }
 
 
@@ -153,4 +188,28 @@ body {
 .on::after {
   transform: translateX(100px);
   opacity: 1;
+}
+
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 5.5s steps(40, end),
+    blink-caret .200s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
