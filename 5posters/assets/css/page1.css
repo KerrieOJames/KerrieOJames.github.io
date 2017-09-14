@@ -9,6 +9,12 @@ body {
   margin: 0px;
 }
 
+.nav {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
 .nextpage {
 	width: 0;
 	height: 0;
