@@ -52,6 +52,8 @@ img {
   color: cornsilk;
   font-size: 10px;
   text-transform: uppercase;
+  align-items: center;
+  text-align: center;
 }
 
 .nav span {
@@ -107,19 +109,17 @@ img {
 }
 
 
-.col1of1{
-  flex: 1 0 100%;
 
-}
 
 .title {
   font-size: 18px;
+  display: block;
   color: white;
   margin-top: 280px;
   font-family: arial;
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 590px;
+  margin-left: 500px;
   position: fixed;
   float:inherit;
   display: block;
@@ -127,6 +127,7 @@ img {
   letter-spacing: 10px;
   color: cornsilk;
   text-shadow: 2px 2px 0px lightblue;
+  text-align: center;
 
 }
 
