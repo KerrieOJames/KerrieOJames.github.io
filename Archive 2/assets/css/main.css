@@ -38,24 +38,11 @@ img {
   padding: 20px;
   bottom: 0px;
   left: 0px;
-  font-family: arial;
-  letter-spacing: 5px;
-  color: cornsilk;
-  font-size: 10px;
 
-}
-
-.nav {
-  max-height: 10px;
-  font-family: arial;
-  letter-spacing: 5px;
-  color: cornsilk;
-  font-size: 10px;
-  text-transform: uppercase;
 }
 
 .nav span {
-  
+  display: block;
 
 }
 
@@ -68,7 +55,7 @@ img {
 }
 
 .nav span:hover, .footer span:hover {
-  color: lightblue;
+  color: blue;
   cursor: pointer;
 }
 
@@ -87,7 +74,7 @@ img {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 500px;
+  padding-top: 200px;
   z-index: 1;
 }
 
@@ -113,14 +100,15 @@ img {
 }
 
 .title {
-  font-size: 18px;
+  font-size: 10px;
   color: white;
-  margin-top: 350px;
+  margin-top: 150px;
   font-family: arial;
   text-transform: uppercase;
-  margin-left: 590px;
+  padding-bottom: 200px;
+  margin-left: 900px;
   position: fixed;
-  float:inherit;
+  float: right;
   display: block;
   z-index: 10;
   letter-spacing: 10px;

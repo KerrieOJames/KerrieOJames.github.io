@@ -2,7 +2,6 @@ $(document).ready(function() {
 
 
 // Add jQuery here
-
 $('.nav_ad').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
@@ -38,12 +37,12 @@ $('.nav_pipe').click(function(event) {
 
 
 
-$('.nav_lights').click(function(event) {
+$('.nav_brick').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.lights').removeClass('hide');
-  $('.item.lights').addClass('show');
+  $('.item.brick').removeClass('hide');
+  $('.item.brick').addClass('show');
 
   $('.nav_clear').addClass('show');
 });
@@ -79,6 +78,7 @@ $('.nav_thumbnail').click(function(event) {
   $('.nav_large').click(function(event) {
     $('.item').removeClass('thumbnail');
     });
+
 
 
 
