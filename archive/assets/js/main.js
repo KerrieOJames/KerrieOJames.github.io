@@ -25,12 +25,12 @@ $('.nav_plan').click(function(event) {
 });
 
 
-$('.nav_pipe').click(function(event) {
+$('.nav_art').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.pipe').removeClass('hide');
-  $('.item.ad').addClass('show');
+  $('.item.art').removeClass('hide');
+  $('.item.art').addClass('show');
 
   $('.nav_clear').addClass('show');
 });
@@ -49,12 +49,12 @@ $('.nav_lights').click(function(event) {
 });
 
 
-$('.nav_window').click(function(event){
+$('.nav_sky').click(function(event){
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.window').removeClass('hide');
-  $('.item.window').addclass('show');
+  $('.item.sky').removeClass('hide');
+  $('.item.sky').addclass('show');
 
   $('.nav_clear').addClass('show');
 });
