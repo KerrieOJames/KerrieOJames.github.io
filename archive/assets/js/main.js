@@ -3,23 +3,23 @@ $(document).ready(function() {
 
 // Add jQuery here
 
-$('.nav_ad').click(function(event) {
+$('.nav_outline').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.ad').removeClass('hide');
-  $('.item.ad').addClass('show');
+  $('.item.outline').removeClass('hide');
+  $('.item.outline').addClass('show');
 
   $('.nav_clear').addClass('show');
 });
 
 
-$('.nav_plan').click(function(event) {
+$('.nav_notcity').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.plan').removeClass('hide');
-  $('.item.plan').addClass('show');
+  $('.item.notcity').removeClass('hide');
+  $('.item.notcity').addClass('show');
 
   $('.nav_clear').addClass('show');
 });
