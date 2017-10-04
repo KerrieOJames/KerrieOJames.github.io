@@ -14,45 +14,157 @@ body {
 /* Start here */
 
 body {
-
+  background-color: rgb(173,216,230);
+  min-height: 2000px;
 }
 
 img {
+  max-width: 100%;
+}
+
+.wings {
   width: 100%;
 }
 
-.text {
+
+
+.block {
+  color: navy;
+  width: 96%;
+  height: 800px;
+  background-color: ;
   align-items: center;
-  position: fixed;
-  font-size: 30px;
-  color: white;
-  font-family: arial;
-  align-content: center;
-
-  margin-top: 200px;
-  font-weight: lighter;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 10px;
-  padding-left: 600px;
-  padding-right: 90px;
-  width: 900px;;
+  align-self: center;
+  margin-left: 30px;
 }
 
-a {
+.text {
+  color: grey;
+  font-family: times;
   text-decoration: none;
+  padding-top: 0px;
+  z-index: 10;
+  position: fixed;
+  margin-left: 30px;
+  font-size: 25px;
+  font-style: serif;
+  margin-top: 140px;
+  margin-left: 50px;
+  letter-spacing: 10px;
 }
+
+.sub {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  color: tomato;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.kerrie {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.gurl {
+  max-width: 10%;
+  align-items: center;
+  z-index: 1;
+
+  margin-left: 20px;
+
+
+}
+
+
+.bottle {
+  max-width: 100px;
+  align-items: center;
+
+  z-index: 1;
+  color: white;
+}
+
+
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 300px;
+  padding-top: 200px;
+}
+
+.spacer {
+  padding: 3px;
+
+}
+
+
+.col1of3 {
+  flex:0 0 33.33%;
+
+}
+
+.col1of4 {
+  flex: 0 0 50%;
+}
+
+
+.nav {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+
+
+}
+
+.navblock {
+  align-items: center;
+  background-color: tomato;
+  width: 100%;
+  padding: 10px;
+  padding-top: 12px;
+
+  border-top: 3px dotted white;
+
+}
+
+
+.fix{
+  padding-top: 10px;
+  background-color: tomato;
+  position: fixed;
+  width: 100%;
+
+}
+
 
 
 
 a:link {
-    color:white;
+    color: white;
+    text-decoration: none;
 }
 a:visited {
-    color:white;
+    color: white;
 }
 a:hover {
-    color: darkblue;
+    color: lightblue;
 }
 a:active {
-    color: darkblue;
+    color: #59466f;
+}
+
+nav:hover {
+  color: navy;
 }

@@ -94,7 +94,8 @@ img {
 }
 
 .content {
-  padding: 10px;
+  padding: 50px;
+
 }
 
 
@@ -109,7 +110,10 @@ img {
 }
 
 
+.col1of1{
+  flex: 1 0 20%;
 
+}
 
 .title {
   font-size: 18px;
