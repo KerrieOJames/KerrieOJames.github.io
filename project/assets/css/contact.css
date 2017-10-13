@@ -8,6 +8,7 @@
 body {
 background-color: white;
 padding-bottom: 200px;
+margin: 0px;
 }
 
 .time {
@@ -119,7 +120,6 @@ svg:hover path {
   max-width: 10%;
   align-items: center;
   z-index: 1;
-
   margin-left: 20px;
 
 
@@ -129,7 +129,6 @@ svg:hover path {
 .bottle {
   max-width: 100px;
   align-items: center;
-
   z-index: 1;
   color: white;
 }
@@ -179,7 +178,6 @@ svg:hover path {
   width: 100%;
   padding: 10px;
   padding-top: 12px;
-
   border-top: 3px dotted white;
 
 }
