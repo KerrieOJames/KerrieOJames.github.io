@@ -46,6 +46,11 @@ div.email {
   color: white;
 }
 
+.social {
+  max-width: 150px;
+  display: flex;
+}
+
 .centerbox {
   position: fixed;
 
@@ -216,7 +221,13 @@ svg:hover path {
 
 }
 
+.wood.showme {
+  display: block;
+}
 
+.hide {
+  display: none
+}
 
 
 a:link {
