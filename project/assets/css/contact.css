@@ -26,6 +26,31 @@ margin: 0px;
 }
 
 
+div.contact{
+  position: fixed;
+  color: white;
+    top:  370px;
+    left: 600px;
+    letter-spacing: 5px
+}
+
+div.extra {
+  color: tomato;
+  font-size: 20px
+
+}
+
+div.email {
+  font-size: 12px;
+  font-family: arial;
+  color: white;
+}
+
+.centerbox {
+  position: fixed;
+
+}
+
 .image_swap {
   width: 100%;
   margin: auto;

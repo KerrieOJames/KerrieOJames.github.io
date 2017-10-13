@@ -59,6 +59,8 @@ img {
   max-width: 100%;
 }
 
+
+
 .wings {
   width: 100%;
 }
@@ -108,13 +110,15 @@ img {
 }
 
 .gurl {
-  max-width: 10%;
+
   align-items: center;
   z-index: 1;
 
   margin-left: 20px;
+}
 
-
+.svg {
+  width: 300px;
 }
 
 
