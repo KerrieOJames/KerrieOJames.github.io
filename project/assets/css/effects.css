@@ -1,0 +1,12 @@
+
+
+.cornerbox {
+  position: fixed;
+  max-width: 100%;
+  float: right;
+  text-align: right;
+}
+
+.evening {
+  max-width: 100%;
+}

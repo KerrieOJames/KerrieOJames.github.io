@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+background-color: white;
+padding-bottom: 200px;
+}
+
+.time {
+  font-family: arial;
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+
+.image_swap {
+  width: 600px;
+  margin: auto;
+}
+
+.image_swap img {
+  max-width: 100%;
+
+}
+
+
+.image_swap .message {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.kerrie {
+  font-size: 100px;
+  text-align: center;
+  color: cyan;
+}
