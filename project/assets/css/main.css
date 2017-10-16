@@ -6,9 +6,17 @@
 /* Start here */
 
 body {
-background-color: white;
-padding-bottom: 200px;
+
+
+ background-image: url("wings2.jpg");
+ background-color: rgb(173,216,230);
+ min-width: 2000px;
+ 
+
+
 }
+
+
 
 .time {
   font-family: arial;
@@ -50,10 +58,7 @@ padding-bottom: 200px;
 
 
 
-body {
-  background-color: rgb(173,216,230);
-  min-height: 2000px;
-}
+
 
 img {
   max-width: 100%;
