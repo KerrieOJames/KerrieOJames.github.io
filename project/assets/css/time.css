@@ -44,12 +44,12 @@ body.am .image_swap .wood, body.am .image_swap .afternoon{
   display: none;
 }
 
-body.pm .image_swap .wings, body.pm .image_swap .morning {
+body.pm .image_swap .waterfall, body.pm .image_swap .morning {
   display: none;
 }
 
 
-body.am .image_swap .wings, body.am .image_swap .message{
+body.am .image_swap .waterfall, body.am .image_swap .message{
   display: block;
 }
 

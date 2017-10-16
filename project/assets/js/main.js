@@ -9,6 +9,16 @@ $(document).ready(function() {
 
 
 
+$('.text').mouseenter(function() {
+   $('.circle').addClass('showme');
+ });
+
+
+
+$('.text').mouseleave(function() {
+  $('.circle').removeClass('showme');
+});
+
 
 
 

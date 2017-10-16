@@ -10,3 +10,24 @@
 .evening {
   max-width: 100%;
 }
+
+
+.pulsate {
+    -webkit-animation: pulsate 5s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.7;
+        color: white;
+    }
+    50% {
+        opacity: 1.0;
+        color: tomato;
+    }
+    100% {
+        opacity: 0.7;
+        color: cyan;
+    }
+}
