@@ -66,6 +66,10 @@ body.saturday .time, body.sunday .time{
 }
 
 
+body.halfS .wings {
+  display: none;
+}
+
 
 
 body.h12.quaterM .kerrie {
