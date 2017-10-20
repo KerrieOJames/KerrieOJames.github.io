@@ -180,7 +180,6 @@ img {
   width: 100%;
   padding: 10px;
   padding-top: 12px;
-
   border-top: 3px dotted white;
 
 }
@@ -193,6 +192,37 @@ img {
   width: 100%;
 
 }
+
+
+.nav_index {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+
+
+}
+
+.navblock_index {
+  align-items: center;
+
+  
+
+
+}
+
+
+.fix_index{
+  padding-top: 10px;
+
+  position: fixed;
+  width: 100%;
+  z-index: 60;
+
+}
+
 
 .zine {
   max-width: 10%;
