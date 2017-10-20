@@ -5,6 +5,7 @@ $(document).ready(function() {
   var oddMinute = ' ';
   var halfSecond = ' ';
   var halfMinute = ' ';
+  var everyHour = ' ';
 
 // Update time
   function update() {
@@ -28,17 +29,16 @@ $(document).ready(function() {
     }
 
     function checkHalfSecond(momentSecond){
-      if(momentSecond < 25) {halfSecond = 'quarterS';}
-      else if (momentSecond < 50) {halfSecond = 'halfS';}
-      else if (momentSecond < 75) {halfSecond = 'threequarterS';}
-      else {halfSecond = 'fullS';}
+      if(momentSecond < 30) {halfSecond = 'halfM';}
+      else {halfSecond = 'fullM';}
     }
 
     function checkHalfMinute(momentMinute){
-      if(momentMinute < 15) {halfMinute = 'quarterM';}
-      else if(momentMinute < 30){halfMinute = 'halfM';}
-      else if(momentMinute < 45){halfMinute = 'threequatersM';}
-      else {halfMinute = 'fullM';}
+      if(momentMinute < 5) {halfMinute = 'everyFive';}
+      else if(momentMinute < 10){halfMinute = 'everyTen';}
+      else if(momentMinute < 15){halfMinute = 'everyFifteen';}
+      else if(momentMinute < 45){halfMinute = 'threequarterH';}
+      else {halfMinute = 'fullH';}
     }
 
     // Check if odd, even, quaterpast
@@ -47,7 +47,7 @@ $(document).ready(function() {
     oddOrEvenM(momentMinute);
     checkHalfMinute(momentMinute);
 
-    var timeAll = ['s' + momentSecond, 'm' + momentMinute, 'h' + momentHour, momentAMPM, momentDay, momentMonth, 'y' + momentYear, oddSecond, oddMinute, halfSecond, halfMinute];
+    var timeAll = ['s' + momentSecond, 'm' + momentMinute, 'h' + momentHour, momentAMPM, momentDay, momentMonth, 'y' + momentYear, oddSecond, oddMinute, halfSecond, halfMinute, everyHour];
     var timeClass = timeAll.join(' ');
 
     // Add classes

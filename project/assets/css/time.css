@@ -79,3 +79,21 @@ body.h12.quaterM .kerrie {
 .kerrie {
   display: none;
 }
+
+
+.image_swapS img {
+  display: none;
+}
+
+body.quarterS .swap1 {
+  display: block;
+}
+body.halfS .swap2 {
+  display: block;
+}
+body.threequarterS .swap3 {
+  display: block;
+}
+body.fullM .swap4 {
+  display: block;
+}
