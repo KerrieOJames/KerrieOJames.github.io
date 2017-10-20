@@ -53,9 +53,7 @@ body.am .image_swap .waterfall, body.am .image_swap .message{
   display: block;
 }
 
-body.halfM .time{
-  font-size: 20px;
-}
+
 
 body.friday .message {
   color: navy;

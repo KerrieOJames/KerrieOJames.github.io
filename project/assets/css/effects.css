@@ -12,22 +12,39 @@
 }
 
 
-.pulsate {
-    -webkit-animation: pulsate 5s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.5;
+@-webkit-keyframes pulse_animation {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
 }
+
+.pulse {
+  -webkit-animation-name: 'pulse_animation';
+  -webkit-animation-duration: 3000ms;
+  -webkit-transform-origin: 70% 70%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
 @-webkit-keyframes pulsate {
-    0% {
-        opacity: 0.7;
-        color: white;
-    }
-    50% {
-        opacity: 1.0;
-        color: tomato;
-    }
-    100% {
-        opacity: 0.7;
-        color: cyan;
-    }
+  0% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
 }
