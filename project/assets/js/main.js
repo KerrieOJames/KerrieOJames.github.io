@@ -9,16 +9,25 @@ $(document).ready(function() {
 
 
 
-$('.text').mouseenter(function() {
-   $('.circle').addClass('showme');
+$('.animation').mouseenter(function() {
+   $('.hovermotion').addClass('showme');
  });
 
 
 
-$('.text').mouseleave(function() {
-  $('.circle').removeClass('showme');
+$('.animation').mouseleave(function() {
+  $('.hovermotion').removeClass('showme');
 });
 
+$('.zine_white').mouseenter(function() {
+   $('.zine_red').addClass('showme');
+ });
+
+
+
+$('.zine_white').mouseleave(function() {
+  $('.zine_red').removeClass('showme');
+});
 
 
 

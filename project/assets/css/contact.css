@@ -213,6 +213,26 @@ svg:hover path {
 }
 
 
+.colourpulse {
+    -webkit-animation: pulsate 7s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 1.0;
+        color: white;
+    }
+    50% {
+        opacity: 1.0;
+        color: navy;
+    }
+    100% {
+        opacity: 1.0;
+        color: tomato;
+    }
+}
+
 .fix{
   padding-top: 10px;
   background-color: rgba(13, 13, 132, 1);

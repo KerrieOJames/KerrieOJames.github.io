@@ -12,6 +12,14 @@
 }
 
 
+.zine_red.showme {
+  display: block
+}
+
+.zine_red {
+  display: none;
+}
+
 @-webkit-keyframes pulse_animation {
   0% {
     -webkit-transform: scale(1);
