@@ -27,13 +27,7 @@ body.halfM .time, body.oddS .message{
   color:white;
 }
 
-body.evenM {
-  background-color: lightblue;
-}
 
-body.oddM {
-  background-color: lightblue;
-}
 
 body.pm .image_swap .wood, body.pm .image_swap .afternoon{
   display: block;

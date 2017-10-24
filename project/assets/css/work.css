@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+background-color: white;
+padding-bottom: 200px;
+margin: 0px;
+}
+
+.time {
+  font-family: arial;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  position: fixed;
+  text-align: right;
+  margin-left: 50px;
+  letter-spacing: 3px;
+  color: navy;
+
+}
+
+.social {
+  max-width: 150px;
+  display: flex;
+
+}
+
+.centerbox {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+
+}
+
+
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+.text {
+  color: grey;
+  font-family: times;
+  text-decoration: none;
+  padding-top: 0px;
+  z-index: 10;
+  position: fixed;
+  margin-left: 30px;
+  font-size: 25px;
+  font-style: sans-serif;
+  margin-top: 140px;
+  margin-left: 50px;
+  letter-spacing: 10px;
+}
+
+.sub {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  color: tomato;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.gurl {
+  max-width: 10%;
+  align-items: center;
+  z-index: 1;
+  margin-left: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+.fix{
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+
+}
+
+
+
+
+.wrap {
+  padding-top: 300px;
+  padding-left: 170px;
+  padding-right: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.spacer {
+  padding: 5px;
+}
+
+.col1of4{
+  flex: 1 0 33.33%;
+
+}
+
+
+
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: tomato;
+}
+a:active {
+    color: #59466f;
+}
+
+nav:hover {
+  color: navy;
+}
