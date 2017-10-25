@@ -12,21 +12,17 @@ body {
  min-width: 2000px;
  margin: 0px;
 
-
-
 }
-
 
 
 .time {
   font-family: arial;
   font-size: 10px;
   text-align: center;
-
   text-transform: uppercase;
   position: fixed;
-  text-align: right;
-  margin-left: 50px;
+  bottom: 10px;
+  left: 10px;
   letter-spacing: 3px;
   color: navy;
 
@@ -104,7 +100,8 @@ img {
   text-align: left;
   color: tomato;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
+  font-family: arial;
 }
 
 .title {
@@ -120,10 +117,6 @@ img {
   z-index: 1;
   max-width: 10%;
   margin-left: 20px;
-}
-
-.svg {
-  width: 300px;
 }
 
 
@@ -223,12 +216,16 @@ img {
 
 
 .zine {
-  max-width: 5.5%;
-  padding-left: 10px;
+  max-width: 8%;
+
 }
 
 .animation {
   max-width: 14%;
+}
+
+.illo {
+  max-width: 8%;
 }
 
 
@@ -238,9 +235,9 @@ img {
   max-width: 8%;
   display: flex;
   bottom: 0px;
-  right: 0px;
-}
+  right: 10px;
 
+}
 
 
 

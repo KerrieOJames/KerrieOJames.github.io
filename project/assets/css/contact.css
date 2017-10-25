@@ -7,8 +7,9 @@
 
 body {
 background-color: white;
-padding-bottom: 200px;
 margin: 0px;
+background-color: rgb(173,216,230);
+
 }
 
 .time {
@@ -49,10 +50,16 @@ div.email {
 .social {
   max-width: 150px;
   display: flex;
+  flex: 1 1 33.33%;
 }
 
 .centerbox {
   position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex: 1 1 33.33%;
 
 }
 
@@ -63,6 +70,12 @@ div.email {
 
 .image_swap img {
   max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between
+  flex: 1 1 100%;
+
 
 }
 
@@ -81,25 +94,13 @@ div.email {
 
 
 
-body {
-  background-color: rgb(173,216,230);
-  min-height: 2000px;
-}
+
 
 img {
   max-width: 100%;
 }
 
-.city {
-  z-index: 10px;
-  color: blue;
-     stroke: #006600;
-     fill:   #00cc00;
-}
 
-svg:hover path {
-    fill: red;
-}
 
 
 

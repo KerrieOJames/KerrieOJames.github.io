@@ -54,7 +54,7 @@ $(document).ready(function() {
     $('body').attr('class', timeClass);
 
     // Add format
-    $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss:SS A'));
+    $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss A'));
   };
 
   var intervalId = setInterval(update, 100);

@@ -7,7 +7,7 @@
 
 body {
 background-color: white;
-padding-bottom: 200px;
+
 margin: 0px;
 }
 
@@ -38,77 +38,52 @@ margin: 0px;
 
 }
 
-
-
 img {
   max-width: 100%;
 }
 
-
-
-
-
-
 .text {
-  color: grey;
+  color: navy;
   font-family: times;
   text-decoration: none;
-  padding-top: 0px;
   z-index: 10;
   position: fixed;
-  margin-left: 30px;
-  font-size: 25px;
+  font-size: 20px;
   font-style: sans-serif;
-  margin-top: 140px;
-  margin-left: 50px;
+
   letter-spacing: 10px;
+  z-index: 200;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
 .sub {
   font-size: 10px;
   letter-spacing: 2px;
   color: black;
-  text-align: left;
+
   color: tomato;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 500;
+  font-family: arial;
 }
 
 .title {
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-align: center;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .gurl {
   max-width: 10%;
-  align-items: center;
-  z-index: 1;
-  margin-left: 20px;
+  z-index: 200;
+  margin-left: 10px;
 
 
 }
-
-
-
-
-
-
-
-
-.fix{
-  padding-top: 10px;
-  position: fixed;
-  width: 100%;
-
-}
-
-
-
 
 .wrap {
-  padding-top: 300px;
+  z-index: 1;
   padding-left: 170px;
   padding-right: 170px;
   display: flex;
@@ -116,6 +91,7 @@ img {
   align-items: flex-end;
   justify-content: space-between;
   z-index: 1;
+  padding-top: 300px;
 }
 
 .spacer {
@@ -130,16 +106,88 @@ img {
 
 
 
+.col1of4 {
+  flex: 1 1 50%;
+}
+
+.col2of4 {
+  flex: 1 1 100%;
+}
+
+.nav {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+  margin-top: 0px;
+
+
+}
+
+.navblock {
+  align-items: center;
+  background-color: tomato;
+  width: 100%;
+  padding: 10px;
+  padding-top: 102px;
+
+
+}
+
+
+.nav_index {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+
+
+}
+
+.navblock_index {
+  margin-top: 30px;
+  align-items: center;
+}
+
+
+.fix_index{
+  padding-top: 250px;
+
+
+  width: 100%;
+  z-index: 60;
+
+}
+
+
+.zine {
+  max-width: 8%;
+
+}
+
+.animation {
+  max-width: 14%;
+}
+
+.illo {
+  max-width: 8%;
+}
+
+
 
 a:link {
-    color: white;
+    color: tomato;
     text-decoration: none;
 }
 a:visited {
-    color: white;
+    color: tomato;
 }
 a:hover {
-    color: tomato;
+    color: navy;
 }
 a:active {
     color: #59466f;
