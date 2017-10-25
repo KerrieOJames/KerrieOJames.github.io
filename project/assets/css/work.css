@@ -184,6 +184,29 @@ img {
 
 }
 
+.icetext.showme {
+  display: block;
+}
+
+.icetext {
+  display: none;
+}
+
+
+.icetext {
+  font-family: arial;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  top: 0px;
+  padding-left: 350px;
+  padding-right: 350px;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  color: navy;
+}
+
 a:link {
     color: tomato;
     text-decoration: none;

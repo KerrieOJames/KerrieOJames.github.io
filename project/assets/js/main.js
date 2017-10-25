@@ -19,15 +19,16 @@ $('.animation').mouseleave(function() {
   $('.hovermotion').removeClass('showme');
 });
 
-$('.zine_white').mouseenter(function() {
-   $('.zine_red').addClass('showme');
+$('.ice').mouseenter(function() {
+   $('.icetext').addClass('showme');
  });
 
 
 
-$('.zine_white').mouseleave(function() {
-  $('.zine_red').removeClass('showme');
+$('.ice').mouseleave(function() {
+  $('.icetext').removeClass('showme');
 });
+
 
 
 
