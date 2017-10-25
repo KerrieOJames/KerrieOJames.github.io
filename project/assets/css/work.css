@@ -193,6 +193,7 @@ img {
 }
 
 
+
 .icetext {
   font-family: arial;
   text-align: center;
@@ -205,6 +206,14 @@ img {
   flex-shrink: 1;
 
   color: navy;
+}
+
+.poster:hover {
+  flex: 1 1 100%;
+}
+
+.book:hover {
+  flex: 1 1 100%;
 }
 
 a:link {
