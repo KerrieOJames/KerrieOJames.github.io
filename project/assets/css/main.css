@@ -9,7 +9,7 @@ body {
 
 
 
- min-width: 2000px;
+ min-width: 1500px;
  margin: 0px;
 
 }
@@ -206,7 +206,7 @@ img {
 
 
 .fix_index{
-  padding-top: 10px;
+  top: 50px;
 
   position: fixed;
   width: 100%;
@@ -252,7 +252,7 @@ a:visited {
     color: white;
 }
 a:hover {
-    color: lightblue;
+    color: tomato;
 }
 a:active {
     color: #59466f;

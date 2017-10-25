@@ -25,11 +25,6 @@ margin: 0px;
 
 }
 
-.social {
-  max-width: 150px;
-  display: flex;
-
-}
 
 .centerbox {
   position: fixed;
@@ -170,14 +165,24 @@ img {
 }
 
 .animation {
-  max-width: 14%;
+  max-width: 16%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .illo {
   max-width: 8%;
 }
 
+.social {
+  position: fixed;
+  z-index: 10;
+  max-width: 8%;
+  display: flex;
+  bottom: 0px;
+  right: 10px;
 
+}
 
 a:link {
     color: tomato;
