@@ -31,6 +31,15 @@ $('.ice').mouseleave(function() {
 
 
 
+$('.waterbody').mouseenter(function() {
+   $('.watertext').addClass('showme');
+ });
+
+
+
+$('.waterbody').mouseleave(function() {
+  $('.watertext').removeClass('showme');
+});
 
 
 

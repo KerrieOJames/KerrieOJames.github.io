@@ -194,6 +194,26 @@ img {
   display: none;
 }
 
+.watertext.showme {
+  display: block;
+}
+
+
+.watertext {
+  font-family: arial;
+  font-size: 9px;
+  padding: 20px;
+  top: 300px;
+  position: fixed;
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: navy;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: none;
+}
+
+
 
 
 .icetext {
@@ -206,9 +226,10 @@ img {
   padding-right: 350px;
   flex-grow: 1;
   flex-shrink: 1;
-
   color: navy;
 }
+
+
 
 .poster:hover {
   flex: 1 1 100%;
