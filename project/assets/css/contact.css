@@ -191,8 +191,39 @@ img {
   flex: 1 1 50%;
 }
 
-
 .nav {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+  margin-top: 0px;
+
+
+}
+
+.navblock {
+  align-items: center;
+  background-color: tomato;
+  width: 100%;
+  padding: 10px;
+  padding-top: 12px;
+
+
+}
+
+
+.fix{
+  padding-top: 10px;
+  background-color: tomato;
+  position: fixed;
+  width: 100%;
+
+}
+
+
+.nav_index {
   text-align: center;
   font-family: sans-serif;
   color: white;
@@ -203,15 +234,35 @@ img {
 
 }
 
-.navblock {
+.navblock_index {
+  margin-top: 30px;
   align-items: center;
-  background-color: rgba(13, 13, 132, 1);
+}
+
+
+.fix_index{
+  top: 50px;
+
+  position: fixed;
   width: 100%;
-  padding: 10px;
-  padding-top: 12px;
-  border-top: 3px dotted white;
+  z-index: 60;
 
 }
+
+
+.zine {
+  max-width: 8%;
+
+}
+
+.animation {
+  max-width: 14%;
+}
+
+.illo {
+  max-width: 8%;
+}
+
 
 
 .colourpulse {

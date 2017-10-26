@@ -99,7 +99,9 @@ img {
 }
 
 
-
+.col3of4 {
+  flex: 1 1 33.33%;
+}
 
 .col1of4 {
   flex: 1 1 50%;

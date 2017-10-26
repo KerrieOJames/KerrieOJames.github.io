@@ -106,9 +106,6 @@ img {
   margin-left: 20px;
 }
 
-.svg {
-  width: 300px;
-}
 
 
 .bottle {
@@ -154,6 +151,7 @@ img {
   letter-spacing: 2px;
   font-size: 9px;
   text-transform: uppercase;
+  margin-top: 0px;
 
 
 }
@@ -162,15 +160,15 @@ img {
   align-items: center;
   background-color: tomato;
   width: 100%;
-  padding: 10px;
-  padding-top: 12px;
-  border-top: 3px dotted white;
+
+
+
 
 }
 
 
 .fix{
-  padding-top: 10px;
+
   background-color: tomato;
   position: fixed;
   width: 100%;
@@ -190,51 +188,69 @@ img {
 }
 
 .navblock_index {
-  margin-top: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 60;
+  top: 30px;
   align-items: center;
 }
 
 
 .fix_index{
-  padding-top: 10px;
-
-  position: fixed;
-  width: 100%;
-  z-index: 60;
 
 }
 
 
+
+
+.illo {
+  max-width: 5%;
+}
+
+
+
 .zine {
-  max-width: 5.5%;
+  max-width: 5%;
   padding-left: 10px;
 }
 
 .animation {
-  max-width: 14%;
+  max-width: 9%;
 }
 
 
 .sociallower {
   position: fixed;
   z-index: 10;
-  max-width: 9%;
+  max-width: 7%;
   display: flex;
   bottom: 0px;
   right: 0px;
 }
 
+.credit {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-family: sans-serif;
+  color: navy;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+
+}
+
 
 
 a:link {
-    color: white;
+    color: tomato;
     text-decoration: none;
 }
 a:visited {
-    color: white;
+    color: tomato;
 }
 a:hover {
-    color: lightblue;
+    color:navy;
 }
 a:active {
     color: #59466f;
