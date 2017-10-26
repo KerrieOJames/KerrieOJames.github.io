@@ -209,6 +209,7 @@ img {
   flex-shrink: 1;
   color: navy;
   letter-spacing: 2px;
+  left: 20px;
   text-transform: uppercase;
   display: none;
 }
