@@ -209,12 +209,32 @@ img {
   flex-shrink: 1;
   color: navy;
   letter-spacing: 1px;
-  text-transform: uppercase;
+
   font-family: arial;
   font-size: 10px;
   padding-bottom: 10px;
 }
 
+.capital {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.octypus {
+  padding-left: 8px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: navy;
+  letter-spacing: 1px;
+  display: none;
+  font-family: arial;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.octypus.showme {
+  display: block;
+}
 
 .watertext {
   font-family: arial;

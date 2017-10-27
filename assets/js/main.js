@@ -52,6 +52,16 @@ $('.threepix').mouseleave(function() {
   $('.threetext').removeClass('showme');
 });
 
+$('.food').mouseenter(function() {
+   $('.octypus').addClass('showme');
+ });
+
+
+
+$('.food').mouseleave(function() {
+  $('.octypus').removeClass('showme');
+});
+
 
 $(function(){
 
