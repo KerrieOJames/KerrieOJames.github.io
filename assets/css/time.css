@@ -105,3 +105,24 @@ body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
 body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
   display: inline;
 }
+
+
+.about {
+  display: none;
+}
+
+body.dawnHour .night {
+  display: block;
+}
+
+body.morningHour .morning {
+  display: block;
+}
+
+body.afternoonHour .afternoon {
+  display: block;
+}
+
+body.nightHour .night {
+  display: block;
+}

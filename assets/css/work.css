@@ -209,7 +209,7 @@ img {
   flex-shrink: 1;
   color: navy;
   letter-spacing: 1px;
-
+  padding-right: 100px;
   font-family: arial;
   font-size: 10px;
   padding-bottom: 10px;

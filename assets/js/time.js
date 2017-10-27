@@ -5,6 +5,7 @@ $(document).ready(function() {
   var oddMinute = ' ';
   var halfSecond = ' ';
   var halfMinute = ' ';
+  var halfHour = ' ';
 
 // Update time
   function update() {
@@ -39,6 +40,14 @@ $(document).ready(function() {
       else if(momentMinute < 30){halfMinute = 'halfM';}
       else if(momentMinute < 45){halfMinute = 'threequatersM';}
       else {halfMinute = 'fullM';}
+    }
+
+    function checkHalfHour(momentHour){
+      if(momentHour < 6) {halfHour = 'dawnHour';}
+      else if(momentHour < 7){halfHour = 'morningHour';}
+      else if(momentHour< 12){halfHour = 'afternoonHour';}
+      else if(momentHour< 21){halfHour = 'nightHour';}
+      else {halfHour = 'fullHour';}
     }
 
     // Check if odd, even, quaterpast
