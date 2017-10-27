@@ -107,6 +107,12 @@ img {
 
 }
 
+.subabout {
+  font-size: 9px;
+  text-align: center;
+  margin-left: 12px;
+}
+
 .title {
   text-transform: uppercase;
   letter-spacing: 2px;
