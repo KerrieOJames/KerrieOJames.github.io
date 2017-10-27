@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+background-color: white;
+margin: 0px;
+background-color: rgb(173,216,230);
+
+}
+
+.time {
+  font-family: arial;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  position: fixed;
+  text-align: right;
+  margin-left: 50px;
+  letter-spacing: 3px;
+  color: navy;
+}
+
+
+div.contact{
+  position: fixed;
+  color: white;
+    top:  400px;
+    left: 600px;
+    letter-spacing: 5px;
+
+    align-content: center;
+    margin-left: 100px;
+}
+
+div.extra {
+  color: tomato;
+  font-size: 20px
+
+}
+
+div.email {
+  font-size: 12px;
+  font-family: arial;
+  color: white;
+}
+
+
+
+.centerbox {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex: 1 1 33.33%;
+
+}
+
+.about {
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  top: 30px;
+
+}
+
+.image_swap {
+  width: 100%;
+  margin: auto;
+}
+
+.image_swap img {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between
+  flex: 1 1 100%;
+
+
+}
+
+
+.image_swap .message {
+  text-align: center;
+  font-size: 10px;
+
+}
+
+.kerrie {
+  font-size: 10px;
+  text-align: center;
+  color: cyan;
+}
+
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+.block {
+  color: navy;
+  width: 96%;
+  height: 800px;
+  background-color: ;
+  align-items: center;
+  align-self: center;
+  margin-left: 30px;
+}
+
+.text {
+  color: grey;
+  font-family: times;
+  text-decoration: none;
+  padding-top: 0px;
+  z-index: 10;
+  position: fixed;
+
+  font-size: 39px;
+  font-style: sans-serif;
+  margin-top: 120px;
+  margin-left: 100px;
+  letter-spacing: 10px;
+}
+
+.sub {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: black;
+  text-align: left;
+  color: tomato;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: arial;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+
+}
+
+.gurl {
+  max-width: 15%;
+  align-items: center;
+  z-index: 1;
+  margin-left: 20px;
+
+
+}
+
+
+.bottle {
+  max-width: 100px;
+  align-items: center;
+  z-index: 1;
+  color: white;
+}
+
+
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 300px;
+  padding-top: 200px;
+}
+
+.spacer {
+  padding: 3px;
+
+}
+
+
+.col1of3 {
+  flex:1 0 33.33%;
+
+}
+
+.col1of4 {
+  flex: 1 1 50%;
+}
+
+.nav {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+  margin-top: 0px;
+
+
+}
+
+.navblock {
+  align-items: center;
+  background-color: tomato;
+  width: 100%;
+  padding: 10px;
+  padding-top: 12px;
+
+
+}
+
+
+.fix{
+  padding-top: 10px;
+  background-color: tomato;
+  position: fixed;
+  width: 100%;
+
+}
+
+
+.nav_index {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9px;
+  text-transform: uppercase;
+
+
+}
+
+.navblock_index {
+  margin-top: 30px;
+  align-items: center;
+}
+
+
+.fix_index{
+  top: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 60;
+}
+
+
+.zine {
+  max-width: 8%;
+
+}
+
+.animation {
+  max-width: 14%;
+}
+
+.illo {
+  max-width: 8%;
+}
+
+
+
+.colourpulse {
+    -webkit-animation: pulsate 7s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 1.0;
+        color: white;
+    }
+    50% {
+        opacity: 1.0;
+        color: lightblue;
+    }
+    100% {
+        opacity: 1.0;
+        color: tomato;
+    }
+}
+
+.fix{
+  padding-top: 10px;
+  background-color: rgba(13, 13, 132, 1);
+  position: fixed;
+  width: 100%;
+
+}
+
+.wood.showme {
+  display: block;
+}
+
+.hide {
+  display: none
+}
+
+.social {
+  position: fixed;
+  z-index: 10;
+  max-width: 15%;
+  display: flex;
+  bottom: 0px;
+  right: 10px;
+}
+
+.social {
+  max-width: 160px;
+  display: flex;
+
+}
+
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: tomato;
+}
+a:active {
+    color: #59466f;
+}
+
+nav:hover {
+  color: navy;
+}

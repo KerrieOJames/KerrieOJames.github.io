@@ -1,0 +1,91 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+body.evenS .time {
+  color:blue;
+}
+
+body.oddS .time {
+  color:red;
+}
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+
+*/
+
+
+/* Time CSS here */
+
+
+
+body.halfM .time, body.oddS .message{
+  color:white;
+}
+
+
+
+body.pm .image_swap .wood, body.pm .image_swap .afternoon{
+  display: block;
+}
+
+
+body.am .image_swap .wood, body.am .image_swap .afternoon{
+  display: none;
+}
+
+body.pm .image_swap .waterfall, body.pm .image_swap .morning {
+  display: none;
+}
+
+
+body.am .image_swap .waterfall, body.am .image_swap .message{
+  display: block;
+}
+
+
+
+body.friday .message {
+  color: navy;
+}
+
+body.saturday .time, body.sunday .time{
+  color: cyan;
+}
+
+
+body.halfS .wingindex {
+  display: none;
+}
+
+
+
+body.h12.quaterM .kerrie {
+  display: block;
+}
+
+.kerrie {
+  display: none;
+}
+
+
+.image_swapS img {
+  display: none;
+}
+
+body.quarterS .swap1 {
+  display: block;
+}
+body.halfS .swap2 {
+  display: block;
+}
+body.threequarterS .swap3 {
+  display: block;
+}
+body.fullM .swap4 {
+  display: block;
+}

@@ -1,0 +1,58 @@
+
+
+.cornerbox {
+  position: fixed;
+  max-width: 100%;
+  float: right;
+  text-align: right;
+}
+
+.evening {
+  max-width: 100%;
+}
+
+
+.zine_red.showme {
+  display: block
+}
+
+.zine_red {
+  display: none;
+}
+
+@-webkit-keyframes pulse_animation {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: 'pulse_animation';
+  -webkit-animation-duration: 3000ms;
+  -webkit-transform-origin: 70% 70%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
