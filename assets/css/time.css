@@ -102,7 +102,7 @@ body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
   display: inline;
 }
 
-body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
+body.tuesday .nav_video2, body.thursday .nav_video2, body.saturday .nav_video2, body.sunday .nav_video2 {
   display: inline;
 }
 
