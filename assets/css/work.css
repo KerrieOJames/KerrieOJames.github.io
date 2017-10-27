@@ -198,6 +198,23 @@ img {
   display: block;
 }
 
+.threetext.showme {
+  display: block;
+}
+
+.threetext {
+  display: none;
+  padding-left: 8px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  color: navy;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: arial;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
 
 .watertext {
   font-family: arial;

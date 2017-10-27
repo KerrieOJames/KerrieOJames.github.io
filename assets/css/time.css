@@ -89,3 +89,15 @@ body.threequarterS .swap3 {
 body.fullM .swap4 {
   display: block;
 }
+
+.nav_video1 {
+  display: none;
+}
+
+.nav_video2 {
+  display: none;
+}
+
+body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
+  display: inline;
+}
