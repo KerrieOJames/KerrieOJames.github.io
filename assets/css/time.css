@@ -101,3 +101,7 @@ body.fullM .swap4 {
 body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
   display: inline;
 }
+
+body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
+  display: inline;
+}
