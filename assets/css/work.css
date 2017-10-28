@@ -218,6 +218,7 @@ img {
 .capital {
   text-transform: uppercase;
   font-weight: 600;
+
 }
 
 .octypus {
@@ -230,6 +231,7 @@ img {
   font-family: arial;
   font-size: 10px;
   padding-bottom: 10px;
+  padding-right: 200px;
 }
 
 .octypus.showme {
