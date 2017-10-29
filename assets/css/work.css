@@ -269,6 +269,13 @@ img {
   color: navy;
 }
 
+.mermaid img {
+
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
 
 
 .poster:hover {
