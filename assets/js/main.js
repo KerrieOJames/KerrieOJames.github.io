@@ -63,6 +63,19 @@ $('.food').mouseleave(function() {
 });
 
 
+
+
+$('.egg').mouseenter(function() {
+   $('.grass').addClass('showme');
+ });
+
+
+
+$('.egg').mouseleave(function() {
+  $('.grass').removeClass('showme');
+});
+
+
 $(function(){
 
     function updateClock(){
