@@ -68,15 +68,6 @@ img {
 
 
 
-.block {
-  color: navy;
-  width: 96%;
-  height: 800px;
-  background-color: ;
-  align-items: center;
-  align-self: center;
-  padding-left: 30px;
-}
 
 .text {
   color: grey;
@@ -156,13 +147,18 @@ img {
 
 
 .col1of3 {
-  flex:1 0 33.33%;
+  flex:1 0 33.3%;
 
 }
 
 .col1of4 {
   flex: 1 1 50%;
 }
+
+.col3of3 {
+  flex: 1 1 100%;
+}
+
 
 
 .nav {
@@ -180,12 +176,14 @@ img {
 .navblock {
   align-items: center;
   background-color: tomato;
-  width: 100%;
+  width: 50px;
   padding: 10px;
   padding-top: 12px;
 
 
 }
+
+
 
 
 .fix{
@@ -211,6 +209,12 @@ img {
 .navblock_index {
   margin-top: 30px;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 1;
+
 }
 
 
