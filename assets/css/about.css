@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  outline: 1pt solid aqua;
 }
 
 
@@ -92,6 +93,22 @@ div.email {
 span{
   animation: blink 1s infinite;
 }
+
+.css-typing
+{
+  width: 30em;
+  white-space: nowrap;
+  overflow:hidden;
+  -webkit-animation: type 5s steps(50, end);
+  animation: type 5s steps(50, end);
+  font-family: cambria;
+  font-size: 12px;
+  }
+
+
+  @-webkit-keyframes type{
+  from { width: 0; }
+  }
 
 @keyframes type{
   from { width: 0; }
