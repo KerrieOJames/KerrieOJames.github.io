@@ -67,13 +67,25 @@ div.email {
   color: white;
   letter-spacing: 1px;
   font-size: 11px;
-  min-height: 200px;
+  
   padding-top: 20px;
   top: 30px;
   font-weight: 400;
-  max-width: 260px;
+  max-width: 300px;
 
 }
+
+.css-typing
+{
+  width: 30em;
+  white-space: nowrap;
+  overflow:hidden;
+  -webkit-animation: type 5s steps(50, end);
+  animation: type 5s steps(50, end);
+  font-family: cambria;
+  font-size: 12px;
+  }
+
 
 .about{
 
@@ -126,7 +138,17 @@ animation-delay: 5s;
 
 .morning.line3 {
 animation:'type' 5s steps (60,end);
-animation-delay:10s;
+animation-delay:15s;
+}
+
+.morning.line4 {
+animation:'type' 5s steps (60,end);
+animation-delay:20s;
+}
+
+.morning.line5 {
+animation:'type' 5s steps (60,end);
+animation-delay:25s;
 }
 
 

@@ -17,13 +17,15 @@ body {
   margin-top: 400px;
   width: 200px;
   height: 300px;
-  letter-spacing: 10px;
+  color: #9ea051;
 }
 
 .poster {
   margin-top: 440px;
   margin-left: 810px;
   z-index: 20;
+  letter-spacing: 10px;
+  position: fixed;
 }
 
 .five {
@@ -63,6 +65,48 @@ body {
     z-index: 1;
     position: absolute;
 }
+
+
+.wrap {
+  display: flex;
+
+}
+
+img.pix {
+  max-width: 200%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-height: 300px;
+  align-self: baseline;
+
+}
+
+.container {
+  flex: 0 0 20%;
+
+}
+
+
+
+.title {
+  font-size: 10px;
+  font-family: arial;
+  text-transform: uppercase;
+  flex: 0 0 50%;
+
+}
+
+.names {
+  position: fixed;
+}
+
+
+
 
 a {
   text-decoration: none;
