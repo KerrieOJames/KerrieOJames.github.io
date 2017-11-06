@@ -19,6 +19,10 @@ body {
    background: linear-gradient(black, midnightblue, darkred, midnightblue, black,)
 }
 
+
+
+
+
 img {
   max-width: 100%;
   display: block;
@@ -54,6 +58,7 @@ img {
   text-transform: uppercase;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 }
 
 .nav span {
@@ -135,10 +140,42 @@ img {
 
 }
 
+.text {
+ z-index: 1;
+  align-items: center;
+  margin-top: 350px;
+  max-width: 250px;
+  left: 460px;
+  font-size: 12px;
+  font-family: arial;
+  position: fixed;
+  display: flex;
+  color: white;
+}
+
 .item img {
   max-width: 100%;
 }
 
 .item.thumbnail {
   flex:0 0 10%;
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: lightblue;
+}
+a:active {
+    color: aqua;
+}
+
+nav:hover {
+  color: aqua;
 }
