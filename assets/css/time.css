@@ -108,7 +108,7 @@ body.tuesday .nav_video2, body.thursday .nav_video2, body.saturday .nav_video2, 
 
 
 .about {
-  display: none;
+  display: block;
 }
 
 body.h0 .night, body.h1 .night, body.h2 .night, body.h3 .night, body.h4 .night,  {

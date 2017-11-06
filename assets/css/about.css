@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  
+
 }
 
 
@@ -94,16 +94,6 @@ span{
   animation: blink 1s infinite;
 }
 
-.css-typing
-{
-  width: 30em;
-  white-space: nowrap;
-  overflow:hidden;
-  -webkit-animation: type 5s steps(50, end);
-  animation: type 5s steps(50, end);
-  font-family: cambria;
-  font-size: 12px;
-  }
 
 
   @-webkit-keyframes type{
@@ -120,9 +110,25 @@ span{
   100%{ width: 100; }
 }
 
-@keyframes blink{
-  to{opacity: .0;}
+
+
+
+
+.morning.line1 {
+animation: 'type' 5s steps(60,end);
+animation-delay:0s;
 }
+
+.morning.line2 {
+animation: 'type' 5s steps(60,end);
+animation-delay: 5s;
+}
+
+.morning.line3 {
+animation:'type' 5s steps (60,end);
+animation-delay:10s;
+}
+
 
 
 .image_swap {
