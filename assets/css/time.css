@@ -108,21 +108,21 @@ body.tuesday .nav_video2, body.thursday .nav_video2, body.saturday .nav_video2, 
 
 
 .about {
+  display: none;
+}
+
+body.h0 .night, body.h1 .night, body.h2 .night, body.h3 .night, body.h4 .night,  {
+display: block
+}
+
+body.h5 .morning, body.h6 .morning, body.h7 .morning, body.h8 .morning, body.h9 .morning, body.h10 .morning, body.h11 .morning, {
   display: block;
 }
 
-body.dawnHour .night {
-  display: block;
+body.h12 .afternoon, body.h13 .afternoon, body.h14 .afternoon, body.h15 .afternoon, body.h16 .afternoon, body.h17 .afternoon, body.h18 .afternoon, body.h17 .afternoon, body.h18 .afternoon,   {
+display: block;
 }
 
-body.morningHour .morning {
-  display: block;
-}
-
-body.afternoonHour .afternoon {
-  display: block;
-}
-
-body.nightHour .night {
+body.h19 .night, body.h19 .night, body.h20 .night, body.h19 .night, {
   display: block;
 }
