@@ -67,6 +67,7 @@ div.email {
   color: white;
   letter-spacing: 1px;
   font-size: 11px;
+  
   padding-top: 20px;
   top: 30px;
   font-weight: 400;
@@ -74,15 +75,8 @@ div.email {
 
 }
 
-.aboutme {
-  font-family: sans-serif;
-  color: white;
-  letter-spacing: 1px;
-  font-size: 11px;
-  max-width: 300px;
-}
-
-.css-typing{
+.css-typing
+{
   width: 30em;
   white-space: nowrap;
   overflow:hidden;
@@ -410,16 +404,6 @@ img {
   max-width: 160px;
   display: flex;
 
-}
-
-
-.abouttime {
-  font-family: arial;
-  letter-spacing: normal;
-  font-size: 11px;
-  color: white;
-  max-width: 200px;
-  display: flex;
 }
 
 

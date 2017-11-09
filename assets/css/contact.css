@@ -288,7 +288,14 @@ img {
 }
 
 
-
+.abouttime {
+  font-family: arial;
+  letter-spacing: normal;
+  font-size: 11px;
+  color: white;
+  max-width: 200px;
+  display: flex;
+}
 
 
 .fix{
