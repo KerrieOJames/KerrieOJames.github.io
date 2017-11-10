@@ -4,6 +4,7 @@
 }
 
 
+
 /* Start here */
 
 body {
@@ -179,7 +180,7 @@ img {
   align-items: flex-end;
   justify-content: space-between;
   z-index: 1;
-  margin-left: 600px;
+  margin-left: 650px;
   margin-top: 270px;
 
 }
@@ -197,11 +198,11 @@ img {
 
 .workbox {
   border: 2px solid white;
-  margin-top: 50px;
+
   padding: 10px;
   width: 100px;;
-  align-self: center;
-  text-align: center;
+align-content:space-around;
+align-self: baseline;
   display: block;
   width: 100%;
   padding: 10px;
@@ -213,7 +214,7 @@ img {
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
-    align-items: center;
+
 }
 
 .centerwork{
@@ -226,7 +227,7 @@ img {
   border: 2px solid tomato;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-top: 45px;
+
 
 }
 
