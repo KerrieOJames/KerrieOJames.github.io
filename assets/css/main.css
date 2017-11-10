@@ -198,11 +198,11 @@ img {
 
 .workbox {
   border: 2px solid white;
-
+  margin-top: 50px;
   padding: 10px;
   width: 100px;;
-align-content:space-around;
-align-self: baseline;
+  align-self: center;
+  text-align: center;
   display: block;
   width: 100%;
   padding: 10px;
@@ -214,7 +214,7 @@ align-self: baseline;
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
-
+    align-items: center;
 }
 
 .centerwork{
@@ -227,7 +227,7 @@ align-self: baseline;
   border: 2px solid tomato;
   padding-top: 15px;
   padding-bottom: 15px;
-
+  margin-top: 45px;
 
 }
 
