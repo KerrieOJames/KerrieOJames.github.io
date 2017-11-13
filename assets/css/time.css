@@ -105,24 +105,3 @@ body.monday .nav_video1, body.wednesday .nav_video1, body.friday .nav_video1 {
 body.tuesday .nav_video2, body.thursday .nav_video2, body.saturday .nav_video2, body.sunday .nav_video2 {
   display: inline;
 }
-
-
-.about {
-  display: none;
-}
-
-body.h0 .night, body.h1 .night, body.h2 .night, body.h3 .night, body.h4 .night,  {
-display: block
-}
-
-body.h5 .morning, body.h6 .morning, body.h7 .morning, body.h8 .morning, body.h9 .morning, body.h10 .morning, body.h11 .morning, {
-  display: block;
-}
-
-body.h12 .afternoon, body.h2.pm .afternoon, body.h14 .afternoon, body.h15 .afternoon, body.h16 .afternoon, body.h17 .afternoon, body.h18 .afternoon, body.h17 .afternoon, body.h18 .afternoon,   {
-display: flex;
-}
-
-body.h19 .night, body.h19 .night, body.h20 .night, body.h19 .night, {
-  display: block;
-}

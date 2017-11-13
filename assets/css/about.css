@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 
+
 }
 
 
@@ -62,15 +63,15 @@ div.email {
 
 }
 
-.about {
+.aboutme {
   font-family: sans-serif;
   color: white;
   letter-spacing: 1px;
   font-size: 11px;
   padding-top: 20px;
-  top: 30px;
+  
   font-weight: 400;
-  max-width: 300px;
+  max-width: 400px;
 
 }
 
@@ -79,85 +80,13 @@ div.email {
   color: white;
   letter-spacing: 1px;
   font-size: 11px;
-  max-width: 300px;
+align-items: center;
   font-weight: 100;
+  position: fixed;
+  display: flex;
+
+
 }
-
-.css-typing{
-  width: 30em;
-  white-space: nowrap;
-  overflow:hidden;
-  -webkit-animation: type 5s steps(50, end);
-  animation: type 5s steps(50, end);
-  font-family: cambria;
-  font-size: 12px;
-  }
-
-
-.about{
-
-  white-space: nowrap;
-  overflow: auto;
-
-  width: 30em;
-  animation: type 4s steps(60, end);
-}
-
-.about:nth-child(2){
-  animation: type2 4s steps(60, end);
-}
-
-
-
-span{
-  animation: blink 1s infinite;
-}
-
-
-
-  @-webkit-keyframes type{
-  from { width: 0; }
-  }
-
-@keyframes type{
-  from { width: 0; }
-}
-
-@keyframes type2{
-  0%{width: 0;}
-  50%{width: 0;}
-  100%{ width: 100; }
-}
-
-
-
-
-
-.morning.line1 {
-animation: 'type' 5s steps(60,end);
-animation-delay:0s;
-}
-
-.morning.line2 {
-animation: 'type' 5s steps(60,end);
-animation-delay: 5s;
-}
-
-.morning.line3 {
-animation:'type' 5s steps (60,end);
-animation-delay:15s;
-}
-
-.morning.line4 {
-animation:'type' 5s steps (60,end);
-animation-delay:20s;
-}
-
-.morning.line5 {
-animation:'type' 5s steps (60,end);
-animation-delay:25s;
-}
-
 
 
 .image_swap {
@@ -255,13 +184,6 @@ img {
 
 }
 
-
-.bottle {
-  max-width: 100px;
-  align-items: center;
-  z-index: 1;
-  color: white;
-}
 
 
 
