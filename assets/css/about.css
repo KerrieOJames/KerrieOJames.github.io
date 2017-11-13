@@ -80,6 +80,7 @@ div.email {
   letter-spacing: 1px;
   font-size: 11px;
   max-width: 300px;
+  font-weight: 100;
 }
 
 .css-typing{
