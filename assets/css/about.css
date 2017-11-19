@@ -69,7 +69,7 @@ div.email {
   letter-spacing: 1px;
   font-size: 11px;
   padding-top: 20px;
-  
+
   font-weight: 400;
   max-width: 400px;
 
@@ -285,7 +285,7 @@ img {
 
 
 .colourpulse {
-    -webkit-animation: pulsate 7s ease-out;
+    -webkit-animation: pulsate 8s ease-out;
     -webkit-animation-iteration-count: infinite;
     opacity: 0.5;
 }
@@ -295,7 +295,7 @@ img {
         color: white;
     }
     50% {
-        opacity: 1.0;
+        opacity: 0;
         color: lightblue;
     }
     100% {
