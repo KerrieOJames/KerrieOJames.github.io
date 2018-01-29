@@ -126,6 +126,17 @@ img {
   max-width: 100%;
 }
 
+.camera {
+  min-width: 100%;
+}
+
+.below {
+  font-size: 15px;
+  margin-left: 5px;
+  padding: 5px;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
 
 
 
