@@ -35,6 +35,18 @@
 
 }
 
+.nav {
+  text-decoration: none;
+  color: #76b4c4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: sans-serif;
+  width: 50px;
+  margin-top: 300px;
+  position: fixed;
+}
+
 
 
 
@@ -297,4 +309,22 @@ margin-top: 400px;
 	background: #ad590e;
   margin-left: 300px;
   z-index: 0;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#76b4c4;
+}
+a:visited {
+  color: #ad590e;
+}
+a:hover {
+    color:  pink;
+}
+a:active {
+    color: #59466f;
 }
