@@ -201,26 +201,28 @@ img {
   margin-top: 50px;
   padding: 10px;
   width: 100px;;
-  align-self: center;
+
   text-align: center;
   display: block;
   width: 100%;
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  align-items: center;
+
   font-family: sans-serif;
   color: white;
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
-    align-items: center;
+
 }
 
 .centerwork{
-  align-content: center;
+  margin-right: 10%;
+
   position: fixed;
   display: flex;
+  flex: 1 1 0px;
 }
 
 .workbox:hover {

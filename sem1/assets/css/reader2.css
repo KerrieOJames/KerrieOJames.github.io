@@ -5,7 +5,7 @@
 body {
   font-family: arial;
   font-size: 10px;
-  background-color: #078074;
+  background-color: lightslategrey;
   color: white;
 }
 
@@ -99,7 +99,7 @@ img.pulse {
 }
 
 .card .side__back {
-  background:  #078074;
+  background:  lightslategrey;
   transform: rotateY(180deg);
 
 
@@ -199,13 +199,13 @@ a {
 }
 
 a:link {
-    color:lightpink;
+    color:pink;
 }
 a:visited {
-    color:lightpink;
+    color:pink;
 }
 a:hover {
-    color: turquoise;
+    color: white;
 }
 a:active {
     color: #59466f;
