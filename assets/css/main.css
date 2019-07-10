@@ -344,7 +344,7 @@ nav:hover {
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 900px) {
 .sociallower{
   min-width: 400px;
   overflow: hidden;
