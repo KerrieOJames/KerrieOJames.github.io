@@ -37,7 +37,7 @@ body {
 }
 
 .image_swap img {
-  max-width: 100%;
+  max-width: inherit;
 
 }
 
@@ -172,28 +172,7 @@ img {
 
 
 
-.navblock_index {
-  margin-top: 30px;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  z-index: 1;
-  margin-left: 650px;
-  margin-top: 270px;
 
-}
-
-
-.fix_index{
-  top: 50px;
-
-  position: fixed;
-  width: 100%;
-  z-index: 60;
-
-}
 
 
 .workbox {
@@ -218,9 +197,8 @@ img {
 }
 
 .centerwork{
-  margin-right: 10%;
-
-  position: fixed;
+  position: relative;
+  width: 150px;
   display: flex;
   flex: 1 1 0px;
 }
@@ -363,4 +341,45 @@ a:active {
 
 nav:hover {
   color: navy;
+}
+
+
+@media only screen and (max-width: 1400px) {
+.sociallower{
+  min-width: 400px;
+  overflow: hidden;
+  position: fixed;
+}
+.insta{
+  max-width: 300px;
+}
+
+.swap1 {
+  max-height: 900px;
+  overflow: hidden;
+}
+
+img{
+  max-width: 100%;
+}
+
+.gurl {
+  max-width: 150px;
+}
+
+.image_swapS img {
+  max-width: 200%;
+}
+
+.wings {
+  width: 200%;
+}
+
+.text {
+  position:absolute;
+  width: 160px;
+  right: 0px;
+  left: 0px;
+}
+
 }
